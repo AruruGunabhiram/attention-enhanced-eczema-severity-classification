@@ -1,0 +1,661 @@
+filepath,label
+data/raw/dermnet/train/Atopic Dermatitis Photos/05KeratosisPilaris5.jpg,eczema
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-110.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-smooth-18.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/hidradenitis-suppurativa-83.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keratoacanthoma-138.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/keloids-51.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/perioral-dermatitis-45.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-erythrodermic-23.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-scalp-107.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/molluscum-contagiosum-106.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-inversus-31.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/porokeratosis-15.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-nevus-62.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/hidradenitis-suppurativa-49.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/porokeratosis-64.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-cryotherapy-1.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-common-31.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/molluscum-contagiosum-155.jpg,other_skin
+data/raw/dermnet/test/Atopic Dermatitis Photos/05kerPilarisFlorid.jpg,eczema
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/herpes-cutaneous-137.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/36IMG008.jpg,eczema
+data/raw/dermnet/train/Acne and Rosacea Photos/rosacea-56.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-zoster-109.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/9IMG011.jpg,eczema
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-type-1-primary-65.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05atopic060704.jpg,eczema
+data/raw/dermnet/test/Acne and Rosacea Photos/acne-open-comedo-26.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/varicella-5.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/08PsoriasisPustular.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-107.jpg,other_skin
+data/raw/dermnet/test/Atopic Dermatitis Photos/15IMG002.jpg,eczema
+data/raw/dermnet/test/Atopic Dermatitis Photos/05DryFeet060201.jpg,eczema
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-cutaneous-79.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Penis-19.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/5T-0018.jpg,eczema
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-buttocks-28.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/hidradenitis-suppurativa-96.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rubra-pilaris-12.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/chondrodermatitis-nodularis-64.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/pilar-cyst-51.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/kyrle-disease-1.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/acne-open-comedo-18.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/porokeratosis-32.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/melanoma-mimic-1.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-ruff-113.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-34.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Planus-Oral-29.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05Atopic121503.jpg,eczema
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-plantar-41.jpg,other_skin
+data/raw/dermnet/test/Atopic Dermatitis Photos/9IMG013.jpg,eczema
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-pustular-66.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/07AcnePittedScars.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/sebaceous-hyperplasia-41.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/warts-flat-21.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-smooth-77.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/chondrodermatitis-nodularis-72.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05DennieMorganFolds.jpg,eczema
+data/raw/dermnet/train/Acne and Rosacea Photos/hidradenitis-suppurativa-54.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/warts-digitate-48.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/acne-scar-5.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosis-Vulva-5.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/acne-pustular-38.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-type-1-primary-34.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-common-82.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/neurofibromas-14.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-infantile-1.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-pustular-52.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/12ChickPoxTrunk.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/corns-12.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/eczema-herpeticum-56.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/rosacea-117.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-cyst-10.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05AtopicHand1q.jpg,eczema
+data/raw/dermnet/train/Atopic Dermatitis Photos/1IMG001.jpg,eczema
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/sebaceous-hyperplasia-35.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Chronic-Plaque-173.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Planus-Penis-13.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/08SebDermEar1.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-101.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/nevus-sebaceous-12.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-192.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-digitate-4.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/perioral-dermatitis-137.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-palms-soles-103.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-common-9.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-cyst-114.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/corns-17.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-ruff-125.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/herpes-zoster-99.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keloids-54.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-nevus-73.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-penis-27.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Chronic-Plaque-102.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-palms-soles-124.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/1IMG014.jpg,eczema
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/seborrheic-dermatitis-98.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/herpes-type-1-recurrent-82.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-infantile-14.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/20Keratoacanthoma072102.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-periungual-16.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-erythrodermic-12.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-35.jpg,other_skin
+data/raw/dermnet/test/Atopic Dermatitis Photos/4th1IMG007.jpg,eczema
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Chronic-Plaque-151.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/melanoma-mimic-6.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-treatment-3.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Planus-Oral-6.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/sebaceous-hyperplasia-64.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/08SebDermScalpq.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05ichthyosis080105.jpg,eczema
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-80.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/seborrheic-dermatitis-150.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05icthyosis012405.jpg,eczema
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/seborrheic-dermatitis-148.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-closed-comedo-12.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/seborrheic-dermatitis-102.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/fordyce-spots-3.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/5T-0008.jpg,eczema
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Chronic-Plaque-90.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/psoriasis-scalp-46.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Skin-6.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05wrist061205.jpg,eczema
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/herpes-cutaneous-77.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/pilar-cyst-21.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-18.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/rosacea-granulomatous-2.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05atopic0110052.jpg,eczema
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/sebaceous-hyperplasia-63.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/herpes-type-1-recurrent-7.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05Atopic042801.jpg,eczema
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-cyst-98.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/perioral-dermatitis-121.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-closed-comedo-15.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-cyst-167.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/8IMG005.jpg,eczema
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/varicella-25.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/dermatofibroma-136.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/keratoacanthoma-157.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/rosacea-nose-49.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-type-1-recurrent-3.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keloids-45.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-106.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-digitate-32.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-periungual-8.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Skin-67.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-zoster-158.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-cryotherapy-32.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/sebaceous-hyperplasia-10.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/keratoacanthoma-84.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/hidradenitis-suppurativa-14.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-cystic-115.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-cutaneous-76.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/perioral-dermatitis-132.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-24.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/varicella-39.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-cyst-157.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-type-1-recurrent-94.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/seborrheic-dermatitis-112.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-nevus-46.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-125.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/warts-plantar-44.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-flat-2.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/porokeratosis-99.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-165.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-pustular-generalized-56.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/molluscum-contagiosum-136.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/perioral-dermatitis-129.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/dermatofibroma-38.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/seborrheic-dermatitis-13.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/dermatofibroma-34.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/epidermal-nevus-29.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-164.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/nevus-sebaceous-32.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/Pityriasis-Lichenoides-32.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-ruff-9.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-excoriated-27.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/rosacea-103.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Guttate-65.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rubra-pilaris-5.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/corns-14.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/acne-pustular-8.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/rosacea-3.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Palmoplantar-Keratoderma-5.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/dermatofibroma-10.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Pityriasis-Lichenoides-19.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Nitidus-1.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-type-1-primary-23.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/psoriasis-scalp-98.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-ruff-133.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/lichen-planus-9.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/12ChickenPoxLesions.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/syringoma-6.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Palmoplantar-Keratoderma-6.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-cryotherapy-2.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/skin-tags-polyps-59.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-flat-11.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Anus-18.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/syringoma-44.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-zoster-129.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-excoriated-25.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-plantar-47.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-161.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keratoacanthoma-184.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/1IMG018.jpg,eczema
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Hand-5.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Penis-25.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/nevus-sebaceous-2.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/erythrokeratodermia-variabilis-1.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-smooth-15.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05mouthChild122206.jpg,eczema
+data/raw/dermnet/train/Atopic Dermatitis Photos/36IMG010.jpg,eczema
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-3.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/psoriasis-pustular-generalized-45.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/varicella-57.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Guttate-112.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/hydrocystoma-2.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-160.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05atopicFeet0709051.jpg,eczema
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Planus-Oral-43.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keloids-1.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/rosacea-nose-46.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/follicular-mucinosis-2.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-pustular-74.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keloids-56.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/acne-closed-comedo-31.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/perioral-dermatitis-30.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-excoriated-2.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keratoacanthoma-17.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/perioral-dermatitis-109.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-176.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-ruff-127.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-smooth-78.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/07SteroidRosGlab.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05atopic0313063.jpg,eczema
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/corns-29.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/psoriasis-palms-soles-12.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/nevus-sebaceous-47.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/hidradenitis-suppurativa-29.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05Atopic021011.jpg,eczema
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/herpes-type-1-primary-9.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-zoster-187.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/rosacea-87.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-zoster-121.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-159.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/rosacea-25.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/varicella-19.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-periungual-19.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-palms-soles-118.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-cystic-122.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-cystic-42.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-type-1-recurrent-89.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/13tineaAmiantacea082106.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-189.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/rosacea-nose-65.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/varicella-60.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-type-1-primary-39.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/lichen-planus-91.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05Atopic010203.jpg,eczema
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-pustular-41.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/lichen-planus-159.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-184.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/sebaceous-hyperplasia-19.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/hidradenitis-suppurativa-78.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-palms-soles-160.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-scalp-96.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-cystic-18.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-digitate-17.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-plantar-75.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-cystic-37.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Chronic-Plaque-161.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rubra-pilaris-57.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-cystic-52.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-146.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keratoacanthoma-120.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/lichen-planus-133.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Planus-Hypertrophic-12.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/sebaceous-hyperplasia-69.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-163.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-cutaneous-80.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/neurofibromas-11.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/psoriasis-palms-soles-81.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/rosacea-nose-4.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-plantar-53.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/molluscum-contagiosum-17.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-open-comedo-43.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/7IMG007.jpg,eczema
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-102.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-102.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/perioral-dermatitis-123.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/porokeratosis-21.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Skin-75.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/eczema-herpeticum-30.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/molluscum-contagiosum-107.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/herpes-cutaneous-91.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/acne-closed-comedo-13.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/rosacea-84.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/syringoma-32.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Planus-Drug-11.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05Atopic0712047.jpg,eczema
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-simplex-50.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/hidradenitis-suppurativa-66.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/small-pox-4.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/neurofibromas-9.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-common-105.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/07Acne081101.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Guttate-86.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-smooth-9.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-zoster-161.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/hidradenitis-suppurativa-99.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/rosacea-nose-10.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/eccrine-spiradenoma-1.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-oral-3.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/warts-digitate-18.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/2IMG008.jpg,eczema
+data/raw/dermnet/train/Atopic Dermatitis Photos/12IMG011.jpg,eczema
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-cutaneous-118.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/porokeratosis-60.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/perioral-dermatitis-38.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/skin-tags-polyps-36.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/sebaceous-hyperplasia-46.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/acne-open-comedo-15.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rubra-pilaris-66.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-cryotherapy-13.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Skin-84.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-palms-soles-79.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Planus-Oral-31.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-palms-soles-97.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-pustular-38.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-zoster-179.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/porokeratosis-8.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/dermatofibroma-12.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/eczema-herpeticum-15.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/pinkus-tumor-2.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-20.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-cutaneous-107.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-scar-5.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/reiter-syndrome-20.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-pustular-48.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/herpes-type-1-recurrent-44.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05AtopicDerm0419044.jpg,eczema
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/lichen-planus-210.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Hand-25.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/dermatofibroma-63.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-excoriated-12.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Planus-Oral-26.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-112.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-palms-soles-167.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/08TineaAmiantacea1.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05Atopic12060413.jpg,eczema
+data/raw/dermnet/test/Atopic Dermatitis Photos/15IMG001.jpg,eczema
+data/raw/dermnet/test/Acne and Rosacea Photos/acne-cystic-89.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-infantile-3.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-pustular-73.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-cyst-93.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keratoacanthoma-185.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/herpes-zoster-175.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/milia-3.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/chondrodermatitis-nodularis-57.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-common-40.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/acne-cystic-6.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-150.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-penis-3.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/hidradenitis-suppurativa-81.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-zoster-141.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/rosacea-12.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/perioral-dermatitis-2.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/eczema-herpeticum-33.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-plantar-105.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keratoacanthoma-176.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/skin-tags-polyps-57.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Light-Sensative-4.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/seborrheic-dermatitis-131.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/warts-flat-24.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Planus-Drug-14.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Chronic-Plaque-130.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/dermatofibroma-19.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/nevus-sebaceous-37.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/seborrheic-dermatitis-85.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-21.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-179.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Guttate-3.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-cystic-134.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/hand-foot-mouth-14.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-cyst-161.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/stucco-keratoses-38.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/skin-tags-polyps-63.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Guttate-80.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/IchthosisIMG008-GP3.jpg,eczema
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-scalp-5.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/dermatofibroma-50.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/lichen-planus-89.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-common-79.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Guttate-88.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-type-1-recurrent-96.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Skin-76.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-scalp-40.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keratoacanthoma-124.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Histology-6.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-42.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Planus-Hypertrophic-2.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/rosacea-100.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-ruff-102.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/acne-pustular-17.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/keratoacanthoma-117.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/psoriasis-pustular-generalized-21.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-simplex-15.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-type-1-primary-26.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/5IMG011.jpg,eczema
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/skin-tags-polyps-75.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-pustular-57.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-cyst-147.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-cyst-155.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/pilar-cyst-2.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-erythrodermic-13.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/rosacea-47.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Chronic-Plaque-106.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/12IMG005.jpg,eczema
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/herpes-simplex-38.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-cystic-146.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/skin-tags-polyps-68.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/granuloma-faciale-4.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-plantar-58.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/warts-plantar-22.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/herpes-cutaneous-115.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/corns-13.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-nevus-50.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-7.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Guttate-77.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/lymphocytic-infiltrate-jessner-1.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/molluscum-contagiosum-146.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/cylindroma-14.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-palms-soles-107.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/molluscum-contagiosum-34.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-buttocks-20.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-palms-soles-116.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/rosacea-91.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-palms-soles-149.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-nevus-63.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/herpes-zoster-182.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/dermatofibroma-21.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-smooth-1.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/hidradenitis-suppurativa-2.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05atopic011005.jpg,eczema
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/molluscum-contagiosum-1.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/sebaceous-glands-upper-lip-1.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Guttate-2.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/follicular-mucinosis-4.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-179.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/herpes-buttocks-17.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-plantar-62.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/lichen-planus-101.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-plantar-31.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/1IMG002.jpg,eczema
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-plantar-57.jpg,other_skin
+data/raw/dermnet/test/Atopic Dermatitis Photos/AtopicIMG002-GP3.jpg,eczema
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keloids-40.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/dermatofibroma-95.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Skin-44.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-cyst-112.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/warts-plantar-42.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/hidradenitis-suppurativa-51.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-134.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/spiny-keratoderma-5.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Chronic-Plaque-150.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosis-Vulva-7.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/dermatofibroma-128.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-smooth-126.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-scalp-35.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/stucco-keratoses-9.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Skin-103.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-type-1-primary-15.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-smooth-60.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/perioral-dermatitis-19.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Skin-68.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/lichen-planus-99.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Penis-43.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Skin-53.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Chronic-Plaque-112.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-cystic-125.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keloids-26.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keratoacanthoma-103.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Chronic-Plaque-169.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-nevus-18.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Chronic-Plaque-174.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-scalp-87.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-type-1-primary-71.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-smooth-25.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Skin-61.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/seborrheic-dermatitis-124.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/trichoepithelioma-2.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/IchthosisIMG020-GP3.jpg,eczema
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-ruff-11.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-plantar-113.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-scar-4.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Planus-Oral-33.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/hidradenitis-suppurativa-87.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keratoacanthoma-19.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-pustular-generalized-58.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/herpes-type-1-primary-49.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/perioral-dermatitis-85.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-12.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Penis-33.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/sebaceous-hyperplasia-79.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-HIV-2.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/hidradenitis-suppurativa-84.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/8IMG009.jpg,eczema
+data/raw/dermnet/train/Acne and Rosacea Photos/07RosaceaK02166.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/varicella-7.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-Closed-Comedo.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/rosacea-nose-23.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/molluscum-contagiosum-25.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/skin-tags-polyps-79.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-zoster-198.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/rosacea-92.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/hidradenitis-suppurativa-4.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Guttate-120.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/dermatofibroma-57.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-170.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-palms-soles-101.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Chronic-Plaque-193.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/granuloma-faciale-3.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05atopicFeet0801055.jpg,eczema
+data/raw/dermnet/train/Atopic Dermatitis Photos/05keratosisPilaris010120.jpg,eczema
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-ruff-156.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/psoriasis-scalp-18.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05Atopic010224.jpg,eczema
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keratoacanthoma-107.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-zoster-79.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05atopicFeet082304933.jpg,eczema
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/reiter-syndrome-5.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/IchthosisIMG007-GP3.jpg,eczema
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-ruff-154.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/rosacea-73.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-11.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-common-46.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Anus-5.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/spiny-keratoderma-4.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/hidradenitis-suppurativa-27.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Chronic-Plaque-155.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/stucco-keratoses-14.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/hand-foot-mouth-9.jpg,other_skin
+data/raw/dermnet/test/Atopic Dermatitis Photos/05Atopic12060426.jpg,eczema
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Chronic-Plaque-153.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/rosacea-50.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-plantar-80.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/lichen-planus-vaginal-2.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/perioral-dermatitis-100.jpg,other_skin
+data/raw/dermnet/test/Atopic Dermatitis Photos/9IMG019.jpg,eczema
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-digitate-56.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Pityriasis-Lichenoides-39.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Penis-44.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-common-57.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keloids-12.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/lichen-planus-96.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/skin-tags-polyps-34.jpg,other_skin
+data/raw/dermnet/test/Atopic Dermatitis Photos/KeratosisIMG004-GP3.jpg,eczema
+data/raw/dermnet/test/Acne and Rosacea Photos/milia-14.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/sebaceous-hyperplasia-0098.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/dermatofibroma-134.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/reiter-syndrome-21.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-infant-1.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/molluscum-contagiosum-21.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/perioral-dermatitis-28.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-penis-14.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-flat-68.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-digitate-8.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-pustular-63.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-zoster-13.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-pustular-60.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05AtopicDerm1103.jpg,eczema
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Skin-4.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-scalp-29.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Hand-22.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-182.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Skin-26.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/14IMG001.jpg,eczema
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-141.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-simplex-51.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/acne-cystic-101.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Guttate-75.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Histology-10.jpg,other_skin
+data/raw/dermnet/test/Atopic Dermatitis Photos/05PityriasisAlba.jpg,eczema
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/lichen-planus-131.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/molluscum-contagiosum-40.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/syringoma-11.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-cystic-2.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05atopicKnee0801051.jpg,eczema
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/lichen-planus-vaginal-3.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-palms-soles-170.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-scalp-106.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-plantar-96.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/molluscum-contagiosum-145.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/hand-foot-mouth-7.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/9IMG020.jpg,eczema
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-ruff-87.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Chronic-Plaque-196.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/stucco-keratoses-18.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-cyst-115.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-86.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/syringoma-30.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-flat-34.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-plantar-60.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-penis-24.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/leiomyomata-11.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-nevus-38.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/hidradenitis-suppurativa-104.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/seborrheic-dermatitis-78.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Pityriasis-Lichenoides-53.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/rosacea-81.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/pilar-cyst-23.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-cystic-20.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/perioral-dermatitis-24.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-open-comedo-18.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/Lichen-Planus-Hypertrophic-22.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/6IMG006.jpg,eczema
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/herpes-simplex-33.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/rosacea-68.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/seborrheic-dermatitis-11.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/hand-foot-mouth-17.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-closed-comedo-27.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Guttate-114.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/porokeratosis-6.jpg,other_skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/molluscum-contagiosum-147.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-zoster-159.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-digitate-13.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/eczema-herpeticum-1.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-common-55.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/hidradenitis-suppurativa-63.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-200.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/eczema-herpeticum-14.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/porokeratosis-53.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/lichen-planus-146.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-palms-soles-130.jpg,other_skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-nevus-4.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/6IMG005.jpg,eczema
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-160.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Guttate-63.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/11IMG007.jpg,eczema
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-cystic-4.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-oral-9.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/perioral-dermatitis-45.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-infant-4.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/molluscum-contagiosum-161.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Guttate-90.jpg,other_skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/dermatofibroma-4.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/07PerioralDermq.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/8Psoriasis2-130.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/12wartsMouth4975.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/perioral-dermatitis-115.jpg,other_skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/seborrheic-dermatitis-84.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-19.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/07Rhinophyma1a.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-nails-24.jpg,other_skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-erythrodermic-2.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/acne-closed-comedo-3.jpg,other_skin
+data/raw/dermnet/test/Acne and Rosacea Photos/hidradenitis-suppurativa-12.jpg,other_skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-type-1-primary-20.jpg,other_skin
+data/raw/dermnet/train/Acne and Rosacea Photos/hidradenitis-suppurativa-31.jpg,other_skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05atopic1107054.jpg,eczema
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-digitate-25.jpg,other_skin
