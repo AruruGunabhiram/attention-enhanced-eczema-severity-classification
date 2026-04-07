@@ -38,7 +38,9 @@ def cbam_block(tensor, ratio=8):
     shared_dense2 = layers.Dense(channels, activation='sigmoid')
     avg_out = shared_dense2(shared_dense1(avg_pool))
     max_out = shared_dense2(shared_dense1(max_pool))
-    channel_att = layers.Multiply()([tensor, layers.Add()([avg_out, max_out])[:, None, None, :]])
+    combined = layers.Add()([avg_out, max_out])
+    combined = tf.reshape(combined, [-1, 1, 1, channels])
+    channel_att = layers.Multiply()([tensor, combined])
 
     # Spatial attention
     avg_s = tf.reduce_mean(channel_att, axis=-1, keepdims=True)
