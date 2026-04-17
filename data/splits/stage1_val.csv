@@ -1,135 +1,135 @@
 filepath,label
-data/raw/dermnet/train/Vascular Tumors/spider-angioma-15.jpg,skin
-data/raw/dermnet/train/Vascular Tumors/venous-malformations-20.jpg,skin
+data/raw/dermnet/test/Bullous Disease Photos/diabetic-bullae-17.jpg,skin
+data/raw/dermnet/test/Bullous Disease Photos/bullous-pemphigoid-8.jpg,skin
 data/raw/not_skin/not_skin_0085.jpg,not_skin
-data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-ruff-10.jpg,skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/8IMG006.jpg,skin
 data/raw/not_skin/not_skin_0250.jpg,not_skin
 data/raw/not_skin/not_skin_2444.jpg,not_skin
-data/raw/dermnet/train/Systemic Disease/necrobiosis-lipoidica-78.jpg,skin
-data/raw/dermnet/train/Urticaria Hives/hives-Urticaria-Acute-61.jpg,skin
+data/raw/dermnet/train/Vascular Tumors/pyogenic-granuloma-26.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/normal-variations-2.jpg,skin
 data/raw/not_skin/not_skin_1369.jpg,not_skin
 data/raw/not_skin/not_skin_0397.jpg,not_skin
 data/raw/not_skin/not_skin_0154.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0030434.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0027354.jpg,skin
+data/raw/dermnet/train/Acne and Rosacea Photos/Sebaceous-glands-labia-1.jpg,skin
+data/raw/dermnet/train/Bullous Disease Photos/epidermolysis-bullosa-18.jpg,skin
 data/raw/not_skin/not_skin_1037.jpg,not_skin
 data/raw/not_skin/not_skin_1546.jpg,not_skin
 data/raw/not_skin/not_skin_2643.jpg,not_skin
 data/raw/not_skin/not_skin_0137.jpg,not_skin
-data/raw/dermnet/train/Vascular Tumors/telangiectasias-37.jpg,skin
+data/raw/dermnet/train/Cellulitis Impetigo and other Bacterial Infections/Folliculitis-18.jpg,skin
 data/raw/not_skin/not_skin_2625.jpg,not_skin
 data/raw/not_skin/not_skin_1124.jpg,not_skin
 data/raw/not_skin/not_skin_2012.jpg,not_skin
 data/raw/not_skin/not_skin_1216.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0024321.jpg,skin
-data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/nevus-anemicus-1.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0024378.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0027586.jpg,skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/Lichen-Planus-Oral-32.jpg,skin
+data/raw/dermnet/train/Herpes HPV and other STDs Photos/molluscum-contagiosum-160.jpg,skin
+data/raw/dermnet/train/Exanthems and Drug Eruptions/enterovirus-23.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-face-9.jpg,skin
 data/raw/not_skin/not_skin_1641.jpg,not_skin
 data/raw/not_skin/not_skin_1289.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0029047.jpg,skin
+data/raw/dermnet/test/Melanoma Skin Cancer Nevi and Moles/halo-nevus-17.jpg,skin
 data/raw/not_skin/not_skin_2957.jpg,not_skin
 data/raw/not_skin/not_skin_1693.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0028934.jpg,skin
-data/raw/dermnet/train/Vasculitis Photos/erythema-multiforme-22.jpg,skin
-data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Guttate-100.jpg,skin
-data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/basal-cell-carcinoma-superficial-40.jpg,skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Guttate-77.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/perleche-14.jpg,skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/connective-tissue-nevus-1.jpg,skin
+data/raw/dermnet/train/Herpes HPV and other STDs Photos/herpes-type-2-primary-44.jpg,skin
 data/raw/not_skin/not_skin_1694.jpg,not_skin
 data/raw/not_skin/not_skin_2824.jpg,not_skin
 data/raw/not_skin/not_skin_1852.jpg,not_skin
-data/raw/dermnet/train/Atopic Dermatitis Photos/05atopicChild082806.jpg,skin
+data/raw/dermnet/train/Lupus and other Connective Tissue diseases/dermatomyositis-39.jpg,skin
 data/raw/not_skin/not_skin_1284.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0029188.jpg,skin
-data/raw/dermnet/train/Nail Fungus and other Nail Disease/clubbing-6.jpg,skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/lichen-planus-vaginal-14.jpg,skin
+data/raw/dermnet/train/Melanoma Skin Cancer Nevi and Moles/becker-nevus-18.jpg,skin
 data/raw/not_skin/not_skin_0570.jpg,not_skin
 data/raw/not_skin/not_skin_1265.jpg,not_skin
 data/raw/not_skin/not_skin_2837.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0031707.jpg,skin
-data/raw/dermnet/train/Melanoma Skin Cancer Nevi and Moles/malignant-melanoma-167.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/pseudomonas-16.jpg,skin
+data/raw/dermnet/train/Poison Ivy Photos and other Contact Dermatitis/shoe-allergy-3.jpg,skin
 data/raw/not_skin/not_skin_0071.jpg,not_skin
 data/raw/not_skin/not_skin_1343.jpg,not_skin
 data/raw/not_skin/not_skin_0306.jpg,not_skin
-data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-simplex-45.jpg,skin
-data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rosea-151.jpg,skin
-data/raw/dermnet/train/Lupus and other Connective Tissue diseases/lupus-chronic-cutaneous-94.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0030388.jpg,skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-common-49.jpg,skin
+data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/idiopathic-guttate-hypomelanosis-1.jpg,skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Skin-128.jpg,skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Pityriasis-Lichenoides-4.jpg,skin
 data/raw/not_skin/not_skin_0509.jpg,not_skin
-data/raw/dermnet/train/Lupus and other Connective Tissue diseases/lupus-chronic-cutaneous-77.jpg,skin
-data/raw/dermnet/train/Exanthems and Drug Eruptions/kawasaki-syndrome-22.jpg,skin
+data/raw/dermnet/train/Melanoma Skin Cancer Nevi and Moles/becker-nevus-23.jpg,skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/chondrodermatitis-nodularis-33.jpg,skin
 data/raw/not_skin/not_skin_2201.jpg,not_skin
-data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/phototoxic-reactions-43.jpg,skin
-data/raw/dermnet/train/Eczema Photos/eczema-chronic-17.jpg,skin
+data/raw/dermnet/train/Eczema Photos/eczema-subacute-53.jpg,skin
+data/raw/dermnet/train/Bullous Disease Photos/bullous-pemphigoid-63.jpg,skin
 data/raw/not_skin/not_skin_1137.jpg,not_skin
-data/raw/dermnet/test/Lupus and other Connective Tissue diseases/lupus-chronic-cutaneous-14.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0025164.jpg,skin
+data/raw/dermnet/train/Eczema Photos/prurigo-nodularis-42.jpg,skin
+data/raw/dermnet/test/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/actinic-keratosis-nose-1.jpg,skin
 data/raw/not_skin/not_skin_0311.jpg,not_skin
-data/raw/dermnet/train/Atopic Dermatitis Photos/15IMG005.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0031816.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0025012.jpg,skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-ruff-156.jpg,skin
+data/raw/dermnet/test/Eczema Photos/eczema-nummular-202.jpg,skin
+data/raw/dermnet/train/Eczema Photos/eczema-hand-137.jpg,skin
 data/raw/not_skin/not_skin_2704.jpg,not_skin
-data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-foot-webs-46.jpg,skin
+data/raw/dermnet/train/Eczema Photos/eczema-fingertips-131.jpg,skin
 data/raw/not_skin/not_skin_0018.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0029365.jpg,skin
-data/raw/dermnet/train/Herpes HPV and other STDs Photos/molluscum-contagiosum-137.jpg,skin
-data/raw/dermnet/test/Atopic Dermatitis Photos/05atopic0124051.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0031072.jpg,skin
-data/raw/dermnet/train/Hair Loss Photos Alopecia and other Hair Diseases/alopecia-areata-57.jpg,skin
-data/raw/dermnet/train/Bullous Disease Photos/localized-pemphigoid-4.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0030053.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-foot-webs-9.jpg,skin
+data/raw/dermnet/train/Eczema Photos/eczema-foot-18.jpg,skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/corns-25.jpg,skin
+data/raw/dermnet/test/Eczema Photos/stasis-dermatitis-97.jpg,skin
+data/raw/dermnet/train/Eczema Photos/chapped-fissured-feet-7.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/actinic-keratosis-lesion-35.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/psoriasis-91.jpg,skin
 data/raw/not_skin/not_skin_1624.jpg,not_skin
-data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/basal-cell-carcinoma-scalp-3.jpg,skin
+data/raw/dermnet/train/Melanoma Skin Cancer Nevi and Moles/atypical-nevi-29.jpg,skin
 data/raw/not_skin/not_skin_0348.jpg,not_skin
-data/raw/dermnet/train/Eczema Photos/eczema-subacute-108.jpg,skin
+data/raw/dermnet/train/Eczema Photos/eczema-fingertips-81.jpg,skin
 data/raw/not_skin/not_skin_1505.jpg,not_skin
 data/raw/not_skin/not_skin_1259.jpg,not_skin
-data/raw/dermnet/test/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/ctcl-7.jpg,skin
-data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/actinic-keratosis-face-55.jpg,skin
-data/raw/dermnet/train/Acne and Rosacea Photos/milia-14.jpg,skin
-data/raw/dermnet/train/Herpes HPV and other STDs Photos/herpes-type-2-recurrent-45.jpg,skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/psoriasis-pustular-generalized-20.jpg,skin
+data/raw/dermnet/train/Eczema Photos/eczema-fingertips-83.jpg,skin
+data/raw/dermnet/train/Eczema Photos/stasis-dermatitis-178.jpg,skin
+data/raw/dermnet/test/Acne and Rosacea Photos/acne-cystic-135.jpg,skin
 data/raw/not_skin/not_skin_2271.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0029698.jpg,skin
-data/raw/dermnet/train/Melanoma Skin Cancer Nevi and Moles/atypical-nevi-dermoscopy-98.jpg,skin
+data/raw/dermnet/train/Exanthems and Drug Eruptions/drug-eruptions-17.jpg,skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/accessory-nipple-2.jpg,skin
 data/raw/not_skin/not_skin_0382.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0033330.jpg,skin
-data/raw/dermnet/train/Vascular Tumors/telangiectasias-42.jpg,skin
-data/raw/dermnet/test/Atopic Dermatitis Photos/11IMG019.jpg,skin
-data/raw/dermnet/train/Exanthems and Drug Eruptions/drug-eruptions-97.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0026597.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0030389.jpg,skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-plantar-28.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/cutaneous-horn-23.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/biting-excoriation-7.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/actinic-keratosis-face-38.jpg,skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-scalp-108.jpg,skin
+data/raw/dermnet/test/Acne and Rosacea Photos/acne-pustular-15.jpg,skin
 data/raw/not_skin/not_skin_2371.jpg,not_skin
 data/raw/not_skin/not_skin_2475.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0031824.jpg,skin
-data/raw/dermnet/train/Acne and Rosacea Photos/rosacea-26.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0029861.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0029612.jpg,skin
-data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/epidermal-cyst-101.jpg,skin
-data/raw/dermnet/train/Eczema Photos/eczema-foot-90.jpg,skin
-data/raw/dermnet/test/Warts Molluscum and other Viral Infections/herpes-cutaneous-48.jpg,skin
+data/raw/dermnet/train/Scabies Lyme Disease and other Infestations and Bites/dermatitis-swimming-10.jpg,skin
+data/raw/dermnet/train/Cellulitis Impetigo and other Bacterial Infections/Folliculitis-23.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-foot-webs-47.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/pincer-nails-7.jpg,skin
+data/raw/dermnet/test/Eczema Photos/eczema-fingertips-109.jpg,skin
+data/raw/dermnet/train/Herpes HPV and other STDs Photos/AIDS-5.jpg,skin
+data/raw/dermnet/train/Cellulitis Impetigo and other Bacterial Infections/otitis-externa-1.jpg,skin
 data/raw/not_skin/not_skin_1460.jpg,not_skin
-data/raw/dermnet/train/Lupus and other Connective Tissue diseases/chilblains-perniosis-1.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0030443.jpg,skin
-data/raw/dermnet/test/Cellulitis Impetigo and other Bacterial Infections/Pseudomonas-Cellulitis-35.jpg,skin
-data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/syringoma-12.jpg,skin
+data/raw/dermnet/train/Eczema Photos/stasis-dermatitis-95.jpg,skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Penis-26.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-versicolor-103.jpg,skin
+data/raw/dermnet/test/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/actinic-keratosis-face-60.jpg,skin
 data/raw/not_skin/not_skin_2247.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0025569.jpg,skin
-data/raw/dermnet/train/Acne and Rosacea Photos/rosacea-44.jpg,skin
-data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/poikiloderma-civatte-10.jpg,skin
-data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-plantar-9.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/pincer-nails-17.jpg,skin
+data/raw/dermnet/train/Vascular Tumors/angiokeratomas-33.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/lichen-planus-91.jpg,skin
+data/raw/dermnet/test/Acne and Rosacea Photos/perioral-dermatitis-138.jpg,skin
 data/raw/not_skin/not_skin_0287.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0025478.jpg,skin
+data/raw/dermnet/test/Acne and Rosacea Photos/rosacea-53.jpg,skin
 data/raw/not_skin/not_skin_2487.jpg,not_skin
-data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-119.jpg,skin
-data/raw/dermnet/train/Eczema Photos/eczema-hand-103.jpg,skin
+data/raw/dermnet/train/Vascular Tumors/pyogenic-granuloma-79.jpg,skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/AtopicIMG010-GP3.jpg,skin
 data/raw/not_skin/not_skin_2655.jpg,not_skin
-data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-type-1-recurrent-40.jpg,skin
+data/raw/dermnet/train/Bullous Disease Photos/diabetic-bullae-27.jpg,skin
 data/raw/not_skin/not_skin_0764.jpg,not_skin
-data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-foot-webs-63.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0030331.jpg,skin
-data/raw/dermnet/train/Eczema Photos/stasis-dermatitis-110.jpg,skin
-data/raw/dermnet/train/Atopic Dermatitis Photos/05atopic031306.jpg,skin
+data/raw/dermnet/train/Herpes HPV and other STDs Photos/herpes-type-2-recurrent-12.jpg,skin
+data/raw/dermnet/train/Lupus and other Connective Tissue diseases/lupus-chronic-cutaneous-59.jpg,skin
+data/raw/dermnet/test/Vascular Tumors/telangiectasias-34.jpg,skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/lichen-planus-99.jpg,skin
 data/raw/not_skin/not_skin_2294.jpg,not_skin
 data/raw/not_skin/not_skin_0183.jpg,not_skin
-data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/chondrodermatitis-nodularis-9.jpg,skin
+data/raw/dermnet/train/Systemic Disease/necrobiosis-lipoidica-30.jpg,skin
 data/raw/not_skin/not_skin_2054.jpg,not_skin
 data/raw/not_skin/not_skin_2471.jpg,not_skin
 data/raw/not_skin/not_skin_0373.jpg,not_skin
@@ -139,21 +139,21 @@ data/raw/not_skin/not_skin_1173.jpg,not_skin
 data/raw/not_skin/not_skin_2255.jpg,not_skin
 data/raw/not_skin/not_skin_2849.jpg,not_skin
 data/raw/not_skin/not_skin_1483.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0029073.jpg,skin
-data/raw/dermnet/train/Lupus and other Connective Tissue diseases/morphea-82.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0028122.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0029513.jpg,skin
-data/raw/dermnet/train/Nail Fungus and other Nail Disease/onychogryphosis-6.jpg,skin
-data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/chondrodermatitis-nodularis-39.jpg,skin
-data/raw/dermnet/train/Nail Fungus and other Nail Disease/pincer-nails-9.jpg,skin
+data/raw/dermnet/train/Hair Loss Photos Alopecia and other Hair Diseases/alopecia-areata-86.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/ctcl-5.jpg,skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-scalp-80.jpg,skin
+data/raw/dermnet/test/Acne and Rosacea Photos/acne-open-comedo-18.jpg,skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-cystic-135.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/pseudomonas-17.jpg,skin
+data/raw/dermnet/train/Vascular Tumors/pyogenic-granuloma-72.jpg,skin
 data/raw/not_skin/not_skin_0840.jpg,not_skin
-data/raw/dermnet/train/Eczema Photos/eczema-fingertips-102.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0031254.jpg,skin
+data/raw/dermnet/train/Vascular Tumors/lymphangioma-circumscriptum-12.jpg,skin
+data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/sun-damaged-skin-57.jpg,skin
 data/raw/not_skin/not_skin_0114.jpg,not_skin
 data/raw/not_skin/not_skin_1359.jpg,not_skin
-data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-foot-dorsum-34.jpg,skin
-data/raw/dermnet/train/Systemic Disease/necrobiosis-lipoidica-43.jpg,skin
-data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-groin-131.jpg,skin
+data/raw/dermnet/train/Hair Loss Photos Alopecia and other Hair Diseases/folliculitis-decalvans-6.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/actinic-keratosis-nose-12.jpg,skin
+data/raw/dermnet/train/Melanoma Skin Cancer Nevi and Moles/malignant-melanoma-163.jpg,skin
 data/raw/not_skin/not_skin_2681.jpg,not_skin
 data/raw/not_skin/not_skin_1850.jpg,not_skin
 data/raw/not_skin/not_skin_0632.jpg,not_skin
@@ -161,99 +161,99 @@ data/raw/not_skin/not_skin_0837.jpg,not_skin
 data/raw/not_skin/not_skin_0571.jpg,not_skin
 data/raw/not_skin/not_skin_1849.jpg,not_skin
 data/raw/not_skin/not_skin_2286.jpg,not_skin
-data/raw/dermnet/train/Nail Fungus and other Nail Disease/median-nail-dystrophy-21.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/biting-excoriation-5.jpg,skin
 data/raw/not_skin/not_skin_1308.jpg,not_skin
 data/raw/not_skin/not_skin_0347.jpg,not_skin
-data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-primary-lesion-37.jpg,skin
+data/raw/dermnet/train/Cellulitis Impetigo and other Bacterial Infections/Pseudomonas-Folliculitis-7.jpg,skin
 data/raw/not_skin/not_skin_2821.jpg,not_skin
-data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/ctcl-39.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-incognito-23.jpg,skin
 data/raw/not_skin/not_skin_2455.jpg,not_skin
 data/raw/not_skin/not_skin_0435.jpg,not_skin
 data/raw/not_skin/not_skin_2521.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0030561.jpg,skin
-data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-type-1-primary-18.jpg,skin
+data/raw/dermnet/train/Hair Loss Photos Alopecia and other Hair Diseases/alopecia-areata-60.jpg,skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-closed-comedo-13.jpg,skin
 data/raw/not_skin/not_skin_0971.jpg,not_skin
 data/raw/not_skin/not_skin_2185.jpg,not_skin
-data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/seborrheic-dermatitis-118.jpg,skin
-data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/skin-tags-polyps-146.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0029307.jpg,skin
+data/raw/dermnet/test/Scabies Lyme Disease and other Infestations and Bites/flea-bites-17.jpg,skin
+data/raw/dermnet/test/Scabies Lyme Disease and other Infestations and Bites/spider-bite-26.jpg,skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/12ChickPoxTrunk.jpg,skin
 data/raw/not_skin/not_skin_2200.jpg,not_skin
 data/raw/not_skin/not_skin_1578.jpg,not_skin
 data/raw/not_skin/not_skin_1295.jpg,not_skin
-data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/porokeratosis-32.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/basal-cell-carcinoma-pigmented-45.jpg,skin
 data/raw/not_skin/not_skin_2965.jpg,not_skin
 data/raw/not_skin/not_skin_1524.jpg,not_skin
 data/raw/not_skin/not_skin_2508.jpg,not_skin
 data/raw/not_skin/not_skin_1154.jpg,not_skin
 data/raw/not_skin/not_skin_0906.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0024330.jpg,skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-cystic-5.jpg,skin
 data/raw/not_skin/not_skin_1617.jpg,not_skin
 data/raw/not_skin/not_skin_2633.jpg,not_skin
 data/raw/not_skin/not_skin_1726.jpg,not_skin
 data/raw/not_skin/not_skin_0032.jpg,not_skin
-data/raw/dermnet/test/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-foot-dorsum-30.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0028836.jpg,skin
+data/raw/dermnet/train/Scabies Lyme Disease and other Infestations and Bites/caterpillar-dermatitis-6.jpg,skin
+data/raw/dermnet/test/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-versicolor-97.jpg,skin
 data/raw/not_skin/not_skin_2588.jpg,not_skin
-data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-zoster-121.jpg,skin
+data/raw/dermnet/train/Vasculitis Photos/erythema-nodosum-36.jpg,skin
 data/raw/not_skin/not_skin_0244.jpg,not_skin
 data/raw/not_skin/not_skin_1925.jpg,not_skin
 data/raw/not_skin/not_skin_0578.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0030270.jpg,skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/syringoma-17.jpg,skin
 data/raw/not_skin/not_skin_0007.jpg,not_skin
-data/raw/dermnet/train/Acne and Rosacea Photos/acne-open-comedo-11.jpg,skin
+data/raw/dermnet/train/Herpes HPV and other STDs Photos/genital-warts-110.jpg,skin
 data/raw/not_skin/not_skin_1501.jpg,not_skin
 data/raw/not_skin/not_skin_1520.jpg,not_skin
 data/raw/not_skin/not_skin_0272.jpg,not_skin
 data/raw/not_skin/not_skin_0297.jpg,not_skin
 data/raw/not_skin/not_skin_2373.jpg,not_skin
 data/raw/not_skin/not_skin_0384.jpg,not_skin
-data/raw/dermnet/train/Systemic Disease/diabetes-mellitus-2.jpg,skin
-data/raw/dermnet/test/Warts Molluscum and other Viral Infections/warts-common-13.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0029646.jpg,skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/11IMG007.jpg,skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05atopic011005323.jpg,skin
+data/raw/dermnet/train/Systemic Disease/neurofibromatosis-41.jpg,skin
 data/raw/not_skin/not_skin_1567.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0028914.jpg,skin
-data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/melasma-13.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0026202.jpg,skin
-data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Histology-22.jpg,skin
+data/raw/dermnet/test/Melanoma Skin Cancer Nevi and Moles/atypical-nevi-12.jpg,skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/molluscum-contagiosum-149.jpg,skin
+data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/porphyrias-2.jpg,skin
+data/raw/dermnet/train/Vasculitis Photos/interstitial-granulomatous-dermatitis-2.jpg,skin
 data/raw/not_skin/not_skin_0252.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0030926.jpg,skin
+data/raw/dermnet/train/Melanoma Skin Cancer Nevi and Moles/atypical-nevi-dermoscopy-104.jpg,skin
 data/raw/not_skin/not_skin_2500.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0031441.jpg,skin
+data/raw/dermnet/train/Eczema Photos/eczema-areola-19.jpg,skin
 data/raw/not_skin/not_skin_0019.jpg,not_skin
 data/raw/not_skin/not_skin_1785.jpg,not_skin
 data/raw/not_skin/not_skin_2058.jpg,not_skin
-data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-versicolor-108.jpg,skin
-data/raw/dermnet/train/Melanoma Skin Cancer Nevi and Moles/blue-nevus-ota-8.jpg,skin
-data/raw/dermnet/train/Eczema Photos/eczema-fingertips-126.jpg,skin
+data/raw/dermnet/test/Melanoma Skin Cancer Nevi and Moles/malignant-melanoma-170.jpg,skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-type-1-primary-66.jpg,skin
+data/raw/dermnet/train/Melanoma Skin Cancer Nevi and Moles/congenital-nevus-40.jpg,skin
 data/raw/not_skin/not_skin_1645.jpg,not_skin
 data/raw/not_skin/not_skin_1687.jpg,not_skin
-data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-palms-soles-121.jpg,skin
-data/raw/dermnet/train/Herpes HPV and other STDs Photos/herpes-type-2-recurrent-4.jpg,skin
+data/raw/dermnet/test/Acne and Rosacea Photos/perioral-dermatitis-24.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/squamous-cell-carcinoma-scalp-1.jpg,skin
 data/raw/not_skin/not_skin_1836.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0027369.jpg,skin
+data/raw/dermnet/test/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/ctcl-96.jpg,skin
 data/raw/not_skin/not_skin_0381.jpg,not_skin
 data/raw/not_skin/not_skin_2672.jpg,not_skin
-data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-body-112.jpg,skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Sclerosus-Skin-61.jpg,skin
 data/raw/not_skin/not_skin_0523.jpg,not_skin
 data/raw/not_skin/not_skin_1065.jpg,not_skin
-data/raw/dermnet/test/Poison Ivy Photos and other Contact Dermatitis/metal-dermatitis-9.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/leukoplakia-9.jpg,skin
 data/raw/not_skin/not_skin_0701.jpg,not_skin
 data/raw/not_skin/not_skin_1268.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0025783.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0025147.jpg,skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/psoriasis-pustular-generalized-28.jpg,skin
+data/raw/dermnet/train/Vasculitis Photos/stevens-johnson-syndrome-9.jpg,skin
 data/raw/not_skin/not_skin_2579.jpg,not_skin
 data/raw/not_skin/not_skin_0088.jpg,not_skin
 data/raw/not_skin/not_skin_1834.jpg,not_skin
-data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-zoster-9.jpg,skin
+data/raw/dermnet/train/Vasculitis Photos/erythema-multiforme-92.jpg,skin
 data/raw/not_skin/not_skin_1968.jpg,not_skin
-data/raw/dermnet/train/Atopic Dermatitis Photos/16IMG009.jpg,skin
-data/raw/dermnet/train/Eczema Photos/eczema-subacute-98.jpg,skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keloids-63.jpg,skin
+data/raw/dermnet/test/Acne and Rosacea Photos/acne-open-comedo-10.jpg,skin
 data/raw/not_skin/not_skin_2071.jpg,not_skin
-data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-cryotherapy-3.jpg,skin
-data/raw/dermnet/train/Nail Fungus and other Nail Disease/distal-subungual-onychomycosis-135.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0026967.jpg,skin
-data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-Guttate-58.jpg,skin
-data/raw/dermnet/test/Nail Fungus and other Nail Disease/fissure-8.jpg,skin
+data/raw/dermnet/train/Bullous Disease Photos/pemphigus-foliaceous-21.jpg,skin
+data/raw/dermnet/train/Systemic Disease/necrobiosis-lipoidica-73.jpg,skin
+data/raw/dermnet/test/Scabies Lyme Disease and other Infestations and Bites/scabies-149.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-palm-4.jpg,skin
+data/raw/dermnet/train/Poison Ivy Photos and other Contact Dermatitis/metal-dermatitis-12.jpg,skin
 data/raw/not_skin/not_skin_0332.jpg,not_skin
 data/raw/not_skin/not_skin_2800.jpg,not_skin
 data/raw/not_skin/not_skin_2677.jpg,not_skin
@@ -261,341 +261,341 @@ data/raw/not_skin/not_skin_0285.jpg,not_skin
 data/raw/not_skin/not_skin_0258.jpg,not_skin
 data/raw/not_skin/not_skin_0301.jpg,not_skin
 data/raw/not_skin/not_skin_2992.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0024499.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0025080.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/basal-cell-carcinoma-nose-65.jpg,skin
+data/raw/dermnet/test/Warts Molluscum and other Viral Infections/warts-common-87.jpg,skin
 data/raw/not_skin/not_skin_0031.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0026701.jpg,skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-cystic-45.jpg,skin
 data/raw/not_skin/not_skin_0633.jpg,not_skin
 data/raw/not_skin/not_skin_2820.jpg,not_skin
-data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-foot-webs-71.jpg,skin
-data/raw/dermnet/train/Warts Molluscum and other Viral Infections/12WartAldara.jpg,skin
-data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Planus-Oral-17.jpg,skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/varicella-36.jpg,skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-zoster-20.jpg,skin
+data/raw/dermnet/train/Cellulitis Impetigo and other Bacterial Infections/meningococcemia-2.jpg,skin
 data/raw/not_skin/not_skin_1805.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0024924.jpg,skin
-data/raw/dermnet/train/Acne and Rosacea Photos/perioral-dermatitis-134.jpg,skin
-data/raw/dermnet/test/Acne and Rosacea Photos/acne-open-comedo-17.jpg,skin
-data/raw/dermnet/train/Lupus and other Connective Tissue diseases/dermatomyositis-18.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/basal-cell-carcinoma-ear-24.jpg,skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keratoacanthoma-156.jpg,skin
+data/raw/dermnet/train/Vascular Tumors/angiokeratomas-11.jpg,skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-open-comedo-32.jpg,skin
 data/raw/not_skin/not_skin_0999.jpg,not_skin
-data/raw/dermnet/train/Eczema Photos/eczema-impetiginized-10.jpg,skin
-data/raw/dermnet/train/Eczema Photos/eczema-subacute-95.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0028993.jpg,skin
-data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/granulation-tissue-4.jpg,skin
-data/raw/dermnet/test/Lupus and other Connective Tissue diseases/lupus-acute-43.jpg,skin
+data/raw/dermnet/test/Eczema Photos/eczema-fingertips-10.jpg,skin
+data/raw/dermnet/train/Herpes HPV and other STDs Photos/molluscum-contagiosum-137.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/mucous-cyst-89.jpg,skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05atopic031306.jpg,skin
+data/raw/dermnet/train/Cellulitis Impetigo and other Bacterial Infections/impetigo-26.jpg,skin
 data/raw/not_skin/not_skin_1506.jpg,not_skin
 data/raw/not_skin/not_skin_1156.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0025860.jpg,skin
+data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/nevus-anemicus-8.jpg,skin
 data/raw/not_skin/not_skin_1222.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0031424.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0028933.jpg,skin
-data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/lichen-planus-vaginal-2.jpg,skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/acquired-digital-fibrokeratoma-2.jpg,skin
+data/raw/dermnet/train/Scabies Lyme Disease and other Infestations and Bites/cat-scratch-disease-1.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/erosio-interdigitalis-blastomycetica-1.jpg,skin
 data/raw/not_skin/not_skin_2762.jpg,not_skin
 data/raw/not_skin/not_skin_2452.jpg,not_skin
 data/raw/not_skin/not_skin_0163.jpg,not_skin
 data/raw/not_skin/not_skin_0585.jpg,not_skin
-data/raw/dermnet/test/Nail Fungus and other Nail Disease/distal-subungual-onychomycosis-89.jpg,skin
-data/raw/dermnet/train/Acne and Rosacea Photos/acne-open-comedo-26.jpg,skin
-data/raw/dermnet/test/Bullous Disease Photos/benign-familial-chronic-pemphigus-31.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0029392.jpg,skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/neurofibromas-1.jpg,skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-type-1-recurrent-87.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-face-28.jpg,skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/IchthosisIMG016-GP3.jpg,skin
 data/raw/not_skin/not_skin_2339.jpg,not_skin
-data/raw/dermnet/train/Acne and Rosacea Photos/acne-primary-lesion-4.jpg,skin
+data/raw/dermnet/train/Exanthems and Drug Eruptions/drug-eruption-photosensitivity-1.jpg,skin
 data/raw/not_skin/not_skin_2751.jpg,not_skin
 data/raw/not_skin/not_skin_1545.jpg,not_skin
 data/raw/not_skin/not_skin_2275.jpg,not_skin
-data/raw/dermnet/train/Lupus and other Connective Tissue diseases/chilblains-perniosis-2.jpg,skin
+data/raw/dermnet/test/Nail Fungus and other Nail Disease/distal-subungual-onychomycosis-167.jpg,skin
 data/raw/not_skin/not_skin_2886.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0030376.jpg,skin
-data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/polymorphous-light-eruption-40.jpg,skin
-data/raw/dermnet/train/Urticaria Hives/erythema-annulare-centrifugum-16.jpg,skin
-data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/candidiasis-large-skin-folds-182.jpg,skin
+data/raw/dermnet/train/Hair Loss Photos Alopecia and other Hair Diseases/pseudopelade-2.jpg,skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/molluscum-contagiosum-92.jpg,skin
+data/raw/dermnet/test/Vascular Tumors/kaposi-sarcoma-13.jpg,skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/neurofibromas-18.jpg,skin
 data/raw/not_skin/not_skin_0516.jpg,not_skin
-data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/13tineaCorporis0609010.jpg,skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-simplex-54.jpg,skin
 data/raw/not_skin/not_skin_2557.jpg,not_skin
-data/raw/dermnet/test/Nail Fungus and other Nail Disease/psoriasis-90.jpg,skin
+data/raw/dermnet/test/Melanoma Skin Cancer Nevi and Moles/mongolian-spot-2.jpg,skin
 data/raw/not_skin/not_skin_1997.jpg,not_skin
 data/raw/not_skin/not_skin_2463.jpg,not_skin
-data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/basal-cell-carcinoma-nose-2.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0025239.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0024639.jpg,skin
-data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/sun-damaged-skin-70.jpg,skin
+data/raw/dermnet/test/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/actinic-keratosis-5FU-55.jpg,skin
+data/raw/dermnet/train/Poison Ivy Photos and other Contact Dermatitis/cosmetic-fragrance-allergy-4.jpg,skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-smooth-106.jpg,skin
+data/raw/dermnet/test/Hair Loss Photos Alopecia and other Hair Diseases/acne-keloidalis-46.jpg,skin
 data/raw/not_skin/not_skin_1737.jpg,not_skin
-data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-periungual-11.jpg,skin
-data/raw/dermnet/train/Lupus and other Connective Tissue diseases/crest-syndrome-39.jpg,skin
+data/raw/dermnet/train/Eczema Photos/lichen-simplex-chronicus-149.jpg,skin
+data/raw/dermnet/train/Exanthems and Drug Eruptions/viral-exanthems-62.jpg,skin
 data/raw/not_skin/not_skin_2688.jpg,not_skin
-data/raw/dermnet/train/Scabies Lyme Disease and other Infestations and Bites/scabies-160.jpg,skin
+data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/lentigo-adults-56.jpg,skin
 data/raw/not_skin/not_skin_0564.jpg,not_skin
 data/raw/not_skin/not_skin_0759.jpg,not_skin
 data/raw/not_skin/not_skin_2645.jpg,not_skin
-data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/pilar-cyst-18.jpg,skin
-data/raw/dermnet/test/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-groin-9.jpg,skin
-data/raw/dermnet/train/Herpes HPV and other STDs Photos/herpes-type-2-recurrent-35.jpg,skin
-data/raw/dermnet/train/Nail Fungus and other Nail Disease/distal-subungual-onychomycosis-25.jpg,skin
+data/raw/dermnet/train/Melanoma Skin Cancer Nevi and Moles/malignant-melanoma-138.jpg,skin
+data/raw/dermnet/test/Atopic Dermatitis Photos/9IMG013.jpg,skin
+data/raw/dermnet/train/Eczema Photos/eczema-fingertips-54.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/mucous-cyst-32.jpg,skin
 data/raw/not_skin/not_skin_2060.jpg,not_skin
 data/raw/not_skin/not_skin_2288.jpg,not_skin
-data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-digitate-64.jpg,skin
-data/raw/dermnet/train/Vascular Tumors/pyogenic-granuloma-79.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0025876.jpg,skin
+data/raw/dermnet/test/Atopic Dermatitis Photos/05Atopic1201.jpg,skin
+data/raw/dermnet/test/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-versicolor-87.jpg,skin
+data/raw/dermnet/train/Eczema Photos/eczema-nummular-134.jpg,skin
 data/raw/not_skin/not_skin_2337.jpg,not_skin
-data/raw/dermnet/train/Nail Fungus and other Nail Disease/biting-excoriation-15.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-versicolor-196.jpg,skin
 data/raw/not_skin/not_skin_0166.jpg,not_skin
-data/raw/dermnet/train/Acne and Rosacea Photos/acne-pustular-29.jpg,skin
+data/raw/dermnet/train/Eczema Photos/prurigo-nodularis-41.jpg,skin
 data/raw/not_skin/not_skin_1325.jpg,not_skin
 data/raw/not_skin/not_skin_2599.jpg,not_skin
 data/raw/not_skin/not_skin_1184.jpg,not_skin
-data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-foot-plantar-42.jpg,skin
+data/raw/dermnet/train/Systemic Disease/granuloma-annulare-84.jpg,skin
 data/raw/not_skin/not_skin_1904.jpg,not_skin
 data/raw/not_skin/not_skin_0022.jpg,not_skin
-data/raw/dermnet/train/Scabies Lyme Disease and other Infestations and Bites/scabies-174.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/distal-subungual-onychomycosis-153.jpg,skin
 data/raw/not_skin/not_skin_0450.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0029969.jpg,skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/reiter-syndrome-2.jpg,skin
 data/raw/not_skin/not_skin_0001.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0029952.jpg,skin
+data/raw/dermnet/train/Vascular Tumors/angiokeratomas-26.jpg,skin
 data/raw/not_skin/not_skin_1878.jpg,not_skin
 data/raw/not_skin/not_skin_2877.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0028553.jpg,skin
-data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/pityriasis-rubra-pilaris-25.jpg,skin
-data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/vitiligo-28.jpg,skin
-data/raw/dermnet/train/Systemic Disease/Letterer-Siwe-1.jpg,skin
-data/raw/dermnet/train/Exanthems and Drug Eruptions/drug-lichenoid-eruption-4.jpg,skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/08LSASkin.jpg,skin
+data/raw/dermnet/train/Hair Loss Photos Alopecia and other Hair Diseases/folliculitis-decalvans-11.jpg,skin
+data/raw/dermnet/train/Scabies Lyme Disease and other Infestations and Bites/spider-bite-10.jpg,skin
+data/raw/dermnet/test/Tinea Ringworm Candidiasis and other Fungal Infections/pityrosporum-folliculitis-6.jpg,skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/spiny-keratoderma-1.jpg,skin
 data/raw/not_skin/not_skin_0627.jpg,not_skin
 data/raw/not_skin/not_skin_2343.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0027164.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0026998.jpg,skin
-data/raw/dermnet/train/Poison Ivy Photos and other Contact Dermatitis/allergic-contact-dermatitis-12.jpg,skin
-data/raw/dermnet/train/Acne and Rosacea Photos/23VesselsNose.jpg,skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Lichen-Planus-Penis-7.jpg,skin
+data/raw/dermnet/train/Eczema Photos/neurotic-excoriations-15.jpg,skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-closed-comedo-39.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/intertrigo-64.jpg,skin
 data/raw/not_skin/not_skin_0118.jpg,not_skin
-data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/basal-cell-carcinoma-lid-8.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0024504.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0032897.jpg,skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-pustular-5.jpg,skin
+data/raw/dermnet/train/Scabies Lyme Disease and other Infestations and Bites/biting-insects-24.jpg,skin
+data/raw/dermnet/train/Herpes HPV and other STDs Photos/genital-warts-70.jpg,skin
 data/raw/not_skin/not_skin_2631.jpg,not_skin
 data/raw/not_skin/not_skin_2674.jpg,not_skin
 data/raw/not_skin/not_skin_1274.jpg,not_skin
 data/raw/not_skin/not_skin_1139.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0029819.jpg,skin
+data/raw/dermnet/test/Systemic Disease/granuloma-annulare-163.jpg,skin
 data/raw/not_skin/not_skin_2504.jpg,not_skin
 data/raw/not_skin/not_skin_0704.jpg,not_skin
 data/raw/not_skin/not_skin_1350.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0031305.jpg,skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-smooth-58.jpg,skin
 data/raw/not_skin/not_skin_1153.jpg,not_skin
 data/raw/not_skin/not_skin_0886.jpg,not_skin
 data/raw/not_skin/not_skin_0275.jpg,not_skin
-data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-smooth-106.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0031645.jpg,skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-common-86.jpg,skin
+data/raw/dermnet/test/Urticaria Hives/PUPPP-24.jpg,skin
 data/raw/not_skin/not_skin_2499.jpg,not_skin
 data/raw/not_skin/not_skin_0702.jpg,not_skin
 data/raw/not_skin/not_skin_1081.jpg,not_skin
 data/raw/not_skin/not_skin_1118.jpg,not_skin
-data/raw/dermnet/train/Vasculitis Photos/vasculitis-91.jpg,skin
-data/raw/dermnet/train/Vasculitis Photos/erythema-multiforme-15.jpg,skin
-data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-smooth-44.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/erosio-interdigitalis-blastomycetica-6.jpg,skin
+data/raw/dermnet/train/Eczema Photos/prurigo-nodularis-37.jpg,skin
+data/raw/dermnet/train/Exanthems and Drug Eruptions/erythema-infectiosum-38.jpg,skin
 data/raw/not_skin/not_skin_0734.jpg,not_skin
-data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/basal-cell-carcinoma-ear-7.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0025990.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0027882.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0030633.jpg,skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/05hyperLinearCrease042802.jpg,skin
+data/raw/dermnet/train/Eczema Photos/eczema-foot-44.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/13TineaGroin143.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/fissure-4.jpg,skin
 data/raw/not_skin/not_skin_2109.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0024450.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0029443.jpg,skin
-data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratosis-irritated-113.jpg,skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Pityriasis-Lichenoides-30.jpg,skin
+data/raw/dermnet/train/Vasculitis Photos/interstitial-granulomatous-dermatitis-14.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/basal-cell-carcinoma-pigmented-73.jpg,skin
 data/raw/not_skin/not_skin_1149.jpg,not_skin
 data/raw/not_skin/not_skin_2323.jpg,not_skin
 data/raw/not_skin/not_skin_0200.jpg,not_skin
-data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/Psoriasis-penis-1.jpg,skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/black-heel-18.jpg,skin
 data/raw/not_skin/not_skin_1368.jpg,not_skin
-data/raw/dermnet/train/Nail Fungus and other Nail Disease/alopecia-areata-49.jpg,skin
+data/raw/dermnet/train/Bullous Disease Photos/pemphigus-foliaceous-27.jpg,skin
 data/raw/not_skin/not_skin_2267.jpg,not_skin
 data/raw/not_skin/not_skin_1769.jpg,not_skin
-data/raw/dermnet/train/Vascular Tumors/cherry-angioma-15.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0033060.jpg,skin
-data/raw/dermnet/test/Atopic Dermatitis Photos/11IMG018.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-foot-dorsum-40.jpg,skin
+data/raw/dermnet/test/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-face-1.jpg,skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-palms-soles-196.jpg,skin
 data/raw/not_skin/not_skin_1720.jpg,not_skin
 data/raw/not_skin/not_skin_0283.jpg,not_skin
 data/raw/not_skin/not_skin_0959.jpg,not_skin
 data/raw/not_skin/not_skin_1570.jpg,not_skin
-data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/candida-penis-2.jpg,skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-common-4.jpg,skin
 data/raw/not_skin/not_skin_2653.jpg,not_skin
 data/raw/not_skin/not_skin_2720.jpg,not_skin
 data/raw/not_skin/not_skin_1718.jpg,not_skin
 data/raw/not_skin/not_skin_0941.jpg,not_skin
 data/raw/not_skin/not_skin_0815.jpg,not_skin
-data/raw/dermnet/test/Nail Fungus and other Nail Disease/Bed-Ridges-2.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/candidiasis-mouth-8.jpg,skin
 data/raw/not_skin/not_skin_0963.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0033557.jpg,skin
+data/raw/dermnet/test/Vascular Tumors/vascular-anomaly-3.jpg,skin
 data/raw/not_skin/not_skin_1142.jpg,not_skin
 data/raw/not_skin/not_skin_1044.jpg,not_skin
-data/raw/dermnet/test/Scabies Lyme Disease and other Infestations and Bites/tick-bite-36.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/mucous-cyst-16.jpg,skin
 data/raw/not_skin/not_skin_1391.jpg,not_skin
-data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/sun-damaged-skin-93.jpg,skin
-data/raw/dermnet/test/Herpes HPV and other STDs Photos/herpes-type-2-recurrent-32.jpg,skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-smooth-59.jpg,skin
+data/raw/dermnet/train/Lupus and other Connective Tissue diseases/crest-syndrome-23.jpg,skin
 data/raw/not_skin/not_skin_2128.jpg,not_skin
 data/raw/not_skin/not_skin_2626.jpg,not_skin
 data/raw/not_skin/not_skin_2967.jpg,not_skin
 data/raw/not_skin/not_skin_1798.jpg,not_skin
 data/raw/not_skin/not_skin_1292.jpg,not_skin
-data/raw/dermnet/train/Nail Fungus and other Nail Disease/pseudomonas-29.jpg,skin
-data/raw/dermnet/train/Nail Fungus and other Nail Disease/acute-paronychia-17.jpg,skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/herpes-zoster-144.jpg,skin
+data/raw/dermnet/train/Eczema Photos/eczema-asteatotic-50.jpg,skin
 data/raw/not_skin/not_skin_0609.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0028412.jpg,skin
-data/raw/dermnet/test/Bullous Disease Photos/bullous-pemphigoid-90.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0026720.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/nail-melanoma-3.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-palm-49.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/actinic-keratosis-5FU-36.jpg,skin
 data/raw/not_skin/not_skin_2079.jpg,not_skin
-data/raw/dermnet/train/Melanoma Skin Cancer Nevi and Moles/melanocytic-nevi-66.jpg,skin
+data/raw/dermnet/test/Acne and Rosacea Photos/rosacea-nose-65.jpg,skin
 data/raw/not_skin/not_skin_2468.jpg,not_skin
 data/raw/not_skin/not_skin_0976.jpg,not_skin
 data/raw/not_skin/not_skin_2728.jpg,not_skin
 data/raw/not_skin/not_skin_2332.jpg,not_skin
-data/raw/dermnet/train/Hair Loss Photos Alopecia and other Hair Diseases/acne-keloidalis-41.jpg,skin
+data/raw/dermnet/train/Systemic Disease/tuberous-sclerosis-8.jpg,skin
 data/raw/not_skin/not_skin_2013.jpg,not_skin
-data/raw/dermnet/train/Acne and Rosacea Photos/fordyce-spots-1.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0034087.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/squamous-cell-carcinoma-lip-26.jpg,skin
+data/raw/dermnet/test/Lupus and other Connective Tissue diseases/lupus-chronic-cutaneous-20.jpg,skin
 data/raw/not_skin/not_skin_2841.jpg,not_skin
-data/raw/dermnet/train/Systemic Disease/ochronosis-1.jpg,skin
+data/raw/dermnet/train/Exanthems and Drug Eruptions/viral-exanthems-33.jpg,skin
 data/raw/not_skin/not_skin_2101.jpg,not_skin
-data/raw/dermnet/test/Warts Molluscum and other Viral Infections/molluscum-contagiosum-113.jpg,skin
+data/raw/dermnet/test/Atopic Dermatitis Photos/10IMG006.jpg,skin
 data/raw/not_skin/not_skin_0699.jpg,not_skin
-data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/keloids-15.jpg,skin
+data/raw/dermnet/test/Scabies Lyme Disease and other Infestations and Bites/pediculosis-lids-1.jpg,skin
 data/raw/not_skin/not_skin_0914.jpg,not_skin
 data/raw/not_skin/not_skin_1586.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0030938.jpg,skin
+data/raw/dermnet/train/Cellulitis Impetigo and other Bacterial Infections/Pseudomonas-Folliculitis-3.jpg,skin
 data/raw/not_skin/not_skin_0936.jpg,not_skin
-data/raw/dermnet/train/Hair Loss Photos Alopecia and other Hair Diseases/alopecia-areata-76.jpg,skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/intraepidermal-epithelioma-1.jpg,skin
 data/raw/not_skin/not_skin_2096.jpg,not_skin
-data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/sebaceous-hyperplasia-18.jpg,skin
-data/raw/dermnet/test/Acne and Rosacea Photos/acne-open-comedo-14.jpg,skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/eccrine-spiradenoma-2.jpg,skin
+data/raw/dermnet/test/Eczema Photos/eczema-foot-23.jpg,skin
 data/raw/not_skin/not_skin_1837.jpg,not_skin
-data/raw/dermnet/train/Atopic Dermatitis Photos/05SexLinkedEchthyosis02234.jpg,skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/psoriasis-pustular-generalized-5.jpg,skin
 data/raw/not_skin/not_skin_0878.jpg,not_skin
-data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/phototoxic-reactions-108.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0032358.jpg,skin
+data/raw/dermnet/train/Systemic Disease/tuberous-sclerosis-18.jpg,skin
+data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/post-inflammatory-hyperpigmentation-6.jpg,skin
 data/raw/not_skin/not_skin_2570.jpg,not_skin
 data/raw/not_skin/not_skin_0201.jpg,not_skin
 data/raw/not_skin/not_skin_2041.jpg,not_skin
-data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/lentigo-adults-21.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/distal-subungual-onychomycosis-24.jpg,skin
 data/raw/not_skin/not_skin_0730.jpg,not_skin
 data/raw/not_skin/not_skin_2097.jpg,not_skin
 data/raw/not_skin/not_skin_2888.jpg,not_skin
 data/raw/not_skin/not_skin_1915.jpg,not_skin
 data/raw/not_skin/not_skin_0945.jpg,not_skin
 data/raw/not_skin/not_skin_0666.jpg,not_skin
-data/raw/dermnet/train/Bullous Disease Photos/localized-pemphigoid-6.jpg,skin
+data/raw/dermnet/test/Seborrheic Keratoses and other Benign Tumors/nevus-sebaceous-51.jpg,skin
 data/raw/not_skin/not_skin_2953.jpg,not_skin
 data/raw/not_skin/not_skin_1574.jpg,not_skin
-data/raw/dermnet/train/Eczema Photos/chapped-fissured-feet-28.jpg,skin
+data/raw/dermnet/train/Eczema Photos/stasis-dermatitis-136.jpg,skin
 data/raw/not_skin/not_skin_1926.jpg,not_skin
 data/raw/not_skin/not_skin_2024.jpg,not_skin
 data/raw/not_skin/not_skin_1856.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0032062.jpg,skin
+data/raw/dermnet/train/Scabies Lyme Disease and other Infestations and Bites/fire-ants-11.jpg,skin
 data/raw/not_skin/not_skin_1317.jpg,not_skin
-data/raw/dermnet/train/Bullous Disease Photos/diabetic-bullae-23.jpg,skin
+data/raw/dermnet/train/Acne and Rosacea Photos/hidradenitis-suppurativa-2.jpg,skin
 data/raw/not_skin/not_skin_2236.jpg,not_skin
 data/raw/not_skin/not_skin_0755.jpg,not_skin
 data/raw/not_skin/not_skin_1038.jpg,not_skin
-data/raw/dermnet/test/Lupus and other Connective Tissue diseases/lupus-chronic-cutaneous-345.jpg,skin
+data/raw/dermnet/train/Herpes HPV and other STDs Photos/syphilis-15.jpg,skin
 data/raw/not_skin/not_skin_0412.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0033693.jpg,skin
+data/raw/dermnet/test/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/actinic-keratosis-horn-9.jpg,skin
 data/raw/not_skin/not_skin_2971.jpg,not_skin
 data/raw/not_skin/not_skin_0358.jpg,not_skin
 data/raw/not_skin/not_skin_0449.jpg,not_skin
 data/raw/not_skin/not_skin_2776.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0028684.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0025863.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0029699.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0027810.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-body-162.jpg,skin
+data/raw/dermnet/test/Tinea Ringworm Candidiasis and other Fungal Infections/13CandidaAxillae0712041.jpg,skin
+data/raw/dermnet/train/Eczema Photos/eczema-hand-108.jpg,skin
+data/raw/dermnet/test/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/actinic-keratosis-5FU-28.jpg,skin
 data/raw/not_skin/not_skin_0940.jpg,not_skin
 data/raw/not_skin/not_skin_1166.jpg,not_skin
-data/raw/dermnet/train/Warts Molluscum and other Viral Infections/warts-flat-50.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0028738.jpg,skin
+data/raw/dermnet/train/Melanoma Skin Cancer Nevi and Moles/melanotic-macule-2.jpg,skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/lichen-planus-157.jpg,skin
 data/raw/not_skin/not_skin_1489.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0028110.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-versicolor-17.jpg,skin
 data/raw/not_skin/not_skin_2606.jpg,not_skin
 data/raw/not_skin/not_skin_2538.jpg,not_skin
 data/raw/not_skin/not_skin_1253.jpg,not_skin
-data/raw/dermnet/train/Nail Fungus and other Nail Disease/pseudomonas-21.jpg,skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-scalp-86.jpg,skin
 data/raw/not_skin/not_skin_0961.jpg,not_skin
-data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-versicolor-151.jpg,skin
-data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/porphyrias-41.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0026671.jpg,skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-scar-2.jpg,skin
+data/raw/dermnet/train/Psoriasis pictures Lichen Planus and related diseases/psoriasis-scalp-57.jpg,skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-ruff-161.jpg,skin
 data/raw/not_skin/not_skin_1188.jpg,not_skin
-data/raw/dermnet/train/Nail Fungus and other Nail Disease/acute-paronychia-6.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0027236.jpg,skin
+data/raw/dermnet/train/Melanoma Skin Cancer Nevi and Moles/mongolian-spot-1.jpg,skin
+data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/porphyrias-11.jpg,skin
 data/raw/not_skin/not_skin_0852.jpg,not_skin
 data/raw/not_skin/not_skin_2210.jpg,not_skin
 data/raw/not_skin/not_skin_0938.jpg,not_skin
-data/raw/dermnet/train/Cellulitis Impetigo and other Bacterial Infections/Furuncles-Carbuncles-3.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/lichen-planus-115.jpg,skin
 data/raw/not_skin/not_skin_1479.jpg,not_skin
-data/raw/dermnet/train/Nail Fungus and other Nail Disease/mucous-cyst-48.jpg,skin
-data/raw/dermnet/train/Bullous Disease Photos/benign-familial-chronic-pemphigus-17.jpg,skin
+data/raw/dermnet/train/Acne and Rosacea Photos/minocycline-pigmentation-12.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/actinic-keratosis-face-52.jpg,skin
 data/raw/not_skin/not_skin_0386.jpg,not_skin
-data/raw/dermnet/train/Eczema Photos/eczema-foot-14.jpg,skin
-data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/basal-cell-nevus-syndrome-13.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0029900.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/nail-distal-splitting-11.jpg,skin
+data/raw/dermnet/train/Lupus and other Connective Tissue diseases/lupus-chronic-cutaneous-125.jpg,skin
+data/raw/dermnet/train/Herpes HPV and other STDs Photos/herpes-type-2-recurrent-17.jpg,skin
 data/raw/not_skin/not_skin_1685.jpg,not_skin
 data/raw/not_skin/not_skin_2949.jpg,not_skin
 data/raw/not_skin/not_skin_1898.jpg,not_skin
 data/raw/not_skin/not_skin_2632.jpg,not_skin
 data/raw/not_skin/not_skin_0363.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0026872.jpg,skin
-data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-body-14.jpg,skin
+data/raw/dermnet/test/Psoriasis pictures Lichen Planus and related diseases/Lichen-Planus-Drug-28.jpg,skin
+data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/radiation-dermatitis-4.jpg,skin
 data/raw/not_skin/not_skin_0014.jpg,not_skin
 data/raw/not_skin/not_skin_2171.jpg,not_skin
 data/raw/not_skin/not_skin_1941.jpg,not_skin
 data/raw/not_skin/not_skin_1734.jpg,not_skin
-data/raw/dermnet/train/Systemic Disease/tricholemmoma-1.jpg,skin
-data/raw/dermnet/train/Bullous Disease Photos/bullous-pemphigoid-56.jpg,skin
-data/raw/dermnet/train/Lupus and other Connective Tissue diseases/crest-syndrome-21.jpg,skin
+data/raw/dermnet/train/Acne and Rosacea Photos/acne-open-comedo-50.jpg,skin
+data/raw/dermnet/test/Acne and Rosacea Photos/rosacea-116.jpg,skin
+data/raw/dermnet/train/Systemic Disease/neurofibromatosis-42.jpg,skin
 data/raw/not_skin/not_skin_0534.jpg,not_skin
-data/raw/dermnet/train/Melanoma Skin Cancer Nevi and Moles/congenital-nevus-8.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0024469.jpg,skin
+data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/seborrheic-keratoses-ruff-128.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/basal-cell-carcinoma-pigmented-23.jpg,skin
 data/raw/not_skin/not_skin_2464.jpg,not_skin
-data/raw/dermnet/train/Eczema Photos/eczema-chronic-49.jpg,skin
-data/raw/dermnet/train/Eczema Photos/stasis-dermatitis-152.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/basal-cell-carcinoma-lip-21.jpg,skin
+data/raw/dermnet/train/Vasculitis Photos/majocchi-purpura-tel-1.jpg,skin
 data/raw/not_skin/not_skin_0548.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0032684.jpg,skin
+data/raw/dermnet/train/Nail Fungus and other Nail Disease/pigmented-bands-8.jpg,skin
 data/raw/not_skin/not_skin_1692.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0033403.jpg,skin
+data/raw/dermnet/train/Vascular Tumors/venous-malformations-67.jpg,skin
 data/raw/not_skin/not_skin_2222.jpg,not_skin
 data/raw/not_skin/not_skin_2073.jpg,not_skin
 data/raw/not_skin/not_skin_2043.jpg,not_skin
 data/raw/not_skin/not_skin_0463.jpg,not_skin
 data/raw/not_skin/not_skin_0925.jpg,not_skin
-data/raw/dermnet/train/Herpes HPV and other STDs Photos/herpes-type-2-recurrent-48.jpg,skin
+data/raw/dermnet/train/Systemic Disease/acanthosis-nigricans-43.jpg,skin
 data/raw/not_skin/not_skin_2018.jpg,not_skin
 data/raw/not_skin/not_skin_0770.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0025602.jpg,skin
+data/raw/dermnet/test/Exanthems and Drug Eruptions/viral-exanthems-84.jpg,skin
 data/raw/not_skin/not_skin_0165.jpg,not_skin
 data/raw/not_skin/not_skin_2181.jpg,not_skin
-data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/porokeratosis-53.jpg,skin
+data/raw/dermnet/test/Lupus and other Connective Tissue diseases/dermatomyositis-9.jpg,skin
 data/raw/not_skin/not_skin_0885.jpg,not_skin
 data/raw/not_skin/not_skin_0264.jpg,not_skin
-data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-face-58.jpg,skin
-data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-face-66.jpg,skin
-data/raw/dermnet/train/Eczema Photos/eczema-acute-22.jpg,skin
-data/raw/dermnet/train/Melanoma Skin Cancer Nevi and Moles/atypical-nevi-trunk-19.jpg,skin
+data/raw/dermnet/test/Bullous Disease Photos/bullous-pemphigoid-99.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/squamous-cell-carcinoma-ear-8.jpg,skin
+data/raw/dermnet/train/Systemic Disease/tuberous-sclerosis-3.jpg,skin
+data/raw/dermnet/train/Eczema Photos/eczema-foot-16.jpg,skin
 data/raw/not_skin/not_skin_1430.jpg,not_skin
-data/raw/dermnet/train/Warts Molluscum and other Viral Infections/varicella-38.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0033863.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-incognito-6.jpg,skin
+data/raw/dermnet/train/Scabies Lyme Disease and other Infestations and Bites/cutaneous-Larva-Migrans-6.jpg,skin
 data/raw/not_skin/not_skin_1907.jpg,not_skin
 data/raw/not_skin/not_skin_2603.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0028027.jpg,skin
-data/raw/dermnet/train/Light Diseases and Disorders of Pigmentation/argyria-1.jpg,skin
-data/raw/dermnet/test/Eczema Photos/eczema-nummular-11.jpg,skin
-data/raw/dermnet/train/Nail Fungus and other Nail Disease/nail-distal-splitting-3.jpg,skin
-data/raw/dermnet/train/Systemic Disease/neurofibromatosis-27.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0032441.jpg,skin
+data/raw/dermnet/train/Bullous Disease Photos/epidermolysis-bullosa-34.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/actinic-cheilitis-sq-cell-lip-31.jpg,skin
+data/raw/dermnet/train/Atopic Dermatitis Photos/9IMG014.jpg,skin
+data/raw/dermnet/test/Vasculitis Photos/erythema-multiforme-12.jpg,skin
+data/raw/dermnet/train/Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions/actinic-keratosis-pigmented-12.jpg,skin
+data/raw/dermnet/train/Melanoma Skin Cancer Nevi and Moles/malignant-melanoma-132.jpg,skin
 data/raw/not_skin/not_skin_1691.jpg,not_skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0029984.jpg,skin
+data/raw/dermnet/test/Exanthems and Drug Eruptions/enterovirus-21.jpg,skin
 data/raw/not_skin/not_skin_2001.jpg,not_skin
 data/raw/not_skin/not_skin_0113.jpg,not_skin
-data/raw/dermnet/train/Eczema Photos/lichen-simplex-chronicus-114.jpg,skin
+data/raw/dermnet/train/Tinea Ringworm Candidiasis and other Fungal Infections/tinea-hand-dorsum-15.jpg,skin
 data/raw/not_skin/not_skin_2330.jpg,not_skin
 data/raw/not_skin/not_skin_2084.jpg,not_skin
 data/raw/not_skin/not_skin_2543.jpg,not_skin
 data/raw/not_skin/not_skin_0091.jpg,not_skin
 data/raw/not_skin/not_skin_2142.jpg,not_skin
-data/raw/dermnet/train/Warts Molluscum and other Viral Infections/eczema-herpeticum-14.jpg,skin
+data/raw/dermnet/train/Poison Ivy Photos and other Contact Dermatitis/angry-back-patch-testing-51.jpg,skin
 data/raw/not_skin/not_skin_2021.jpg,not_skin
 data/raw/not_skin/not_skin_1541.jpg,not_skin
 data/raw/not_skin/not_skin_2392.jpg,not_skin
 data/raw/not_skin/not_skin_0616.jpg,not_skin
-data/raw/dermnet/train/Seborrheic Keratoses and other Benign Tumors/keloids-46.jpg,skin
-data/raw/ham10000/HAM10000_images_part_2/ISIC_0030694.jpg,skin
-data/raw/ham10000/HAM10000_images_part_1/ISIC_0028090.jpg,skin
+data/raw/dermnet/train/Scabies Lyme Disease and other Infestations and Bites/stinging-insects-1.jpg,skin
+data/raw/dermnet/test/Vascular Tumors/cherry-angioma-3.jpg,skin
+data/raw/dermnet/train/Warts Molluscum and other Viral Infections/varicella-50.jpg,skin

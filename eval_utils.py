@@ -47,7 +47,9 @@ def evaluate_model(model, test_ds, class_names: list) -> dict:
             # Multiclass softmax head
             y_pred.extend(np.argmax(preds, axis=1).tolist())
 
-    report = classification_report(y_true, y_pred, target_names=class_names, digits=4)
+    report = classification_report(
+        y_true, y_pred, target_names=class_names, digits=4, zero_division=0
+    )
     print(report)
 
     return {

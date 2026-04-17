@@ -14,7 +14,11 @@ def evaluate_model(model, test_ds, class_names: list) -> dict:
             y_pred_raw.extend((preds > 0.5).astype(int).flatten())
         else:
             y_pred_raw.extend(np.argmax(preds, axis=1))
-    print(classification_report(y_true, y_pred_raw, target_names=class_names))
+    print(
+        classification_report(
+            y_true, y_pred_raw, target_names=class_names, zero_division=0
+        )
+    )
     f1 = f1_score(y_true, y_pred_raw, average='weighted')
     return {'y_true': y_true, 'y_pred': y_pred_raw, 'f1_weighted': f1}
 

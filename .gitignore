@@ -1,10 +1,48 @@
-.venv/
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
 .ipynb_checkpoints/
-*.pyc
-.DS_Store
+
+# Local configuration
 .env
+.env.*
+.python-version
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Data
 data/raw/
-models/*.h5
-models/*.keras
-models/*.pt
+
+# Training artifacts
+logs/
+models/
+checkpoints/
+wandb/
+runs/
+tensorboard/
+
+# Keep tracked split CSVs under version control
+!data/splits/
+!data/splits/*.csv
+
+outputs/

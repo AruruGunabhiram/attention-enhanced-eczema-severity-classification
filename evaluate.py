@@ -70,7 +70,7 @@ def grad_cam(
 
     Args:
         model: Keras model to explain.
-        img_array: Preprocessed image, shape (1, H, W, 3), values in [0, 1].
+        img_array: Preprocessed image, shape (1, H, W, 3), values in [0, 255].
         class_index: Integer class index to explain.
         last_conv_layer_name: Name of the Conv2D layer to hook into.
 
@@ -153,8 +153,8 @@ def visualize_grad_cam(
 
     img_array = np.array(
         pil_img.resize((image_size[1], image_size[0])), dtype=np.float32
-    ) / 255.0
-    img_array = np.expand_dims(img_array, 0)  # (1, H, W, 3)
+    )
+    img_array = np.expand_dims(img_array, 0)  # (1, H, W, 3), [0, 255]
 
     # --- Inference ---
     predictions = model.predict(img_array, verbose=0)
@@ -242,7 +242,11 @@ if __name__ == "__main__":
     image_size = tuple(args.image_size)
 
     print(f"Loading model from {args.model_path} ...")
-    model = tf.keras.models.load_model(args.model_path)
+    sys.path.insert(0, str(Path(__file__).parent))
+    from src.models import CUSTOM_OBJECTS
+    model = tf.keras.models.load_model(
+        args.model_path, custom_objects=CUSTOM_OBJECTS, compile=False,
+    )
 
     visualize_grad_cam(
         model=model,

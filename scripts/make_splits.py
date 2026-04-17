@@ -23,9 +23,9 @@ def gather(folder: Path, label: str):
     print(f"  {folder.name}: {len(rows)} images → '{label}'")
     return rows
 
-def save_split(df: pd.DataFrame, prefix: str):
+def save_split(df: pd.DataFrame, prefix: str, holdout: float = 0.2):
     train_df, temp_df = train_test_split(
-        df, test_size=0.2, stratify=df["label"], random_state=SEED
+        df, test_size=holdout, stratify=df["label"], random_state=SEED
     )
     val_df, test_df = train_test_split(
         temp_df, test_size=0.5, stratify=temp_df["label"], random_state=SEED
@@ -159,11 +159,55 @@ print("=" * 60)
 print("STAGE 3: severity (mild / moderate / severe)")
 print("=" * 60)
 
-SEVERITY_MAP = {
-    "subacute": "moderate",
-    "acute":    "mild",
-    "chronic":  "severe",
-}
+SEVERITY_MAP = (
+    # ── severe: chronic/lichenified/widespread presentations ──────────────────
+    ("chronic",           "severe"),
+    ("lichen-simplex",    "severe"),
+    ("prurigo",           "severe"),
+    ("hyperkerato",       "severe"),
+    ("stasis",            "severe"),
+    ("fissure",           "severe"),
+    ("heels-dry",         "severe"),
+    ("trunk-generalized", "severe"),   # widespread/generalized trunk = severe
+    ("generalized",       "severe"),
+    ("erythroderma",      "severe"),
+    ("paraesthetica",     "severe"),   # notalgia paraesthetica = chronic neurogenic
+    # ── moderate: subacute/localised chronic body-site presentations ──────────
+    ("subacute",          "moderate"),
+    ("dyshidro",          "moderate"),
+    ("pompholyx",         "moderate"),
+    ("nummular",          "moderate"),
+    ("asteatotic",        "moderate"),
+    ("desquamation",      "moderate"),
+    ("excoriat",          "moderate"),
+    ("impetigin",         "moderate"),
+    ("fingertip",         "moderate"),  # fingertip eczema = chronic localised
+    ("hand",              "moderate"),  # hand eczema = chronic contact/endogenous
+    ("foot",              "moderate"),  # foot eczema
+    ("exfoliativa",       "moderate"),  # keratolysis exfoliativa = moderate scaling
+    ("areola",            "moderate"),
+    ("axillae",           "moderate"),
+    ("ears",              "moderate"),
+    ("trunk",             "moderate"),  # non-generalised trunk
+    ("arms",              "moderate"),
+    ("leg",               "moderate"),
+    ("vulva",             "moderate"),
+    ("scrotum",           "moderate"),
+    ("anal",              "moderate"),
+    ("reaction",          "moderate"),  # contact reaction (often subacute)
+    ("disease",           "moderate"),
+    # ── mild: acute / early / facial / superficial presentations ─────────────
+    ("acute",             "mild"),
+    ("contact",           "mild"),
+    ("diaper",            "mild"),
+    ("dermatitis",        "mild"),
+    ("face",              "mild"),      # facial eczema typically mild/atopic
+    ("lids",              "mild"),      # eyelid eczema = mild atopic/contact
+    ("superficial",       "mild"),
+    ("psychogenic",       "mild"),      # neurotic/factitial = mild presentation
+    ("factitial",         "mild"),
+    ("fiberglass",        "mild"),      # irritant contact = mild
+)
 
 severity_rows = []
 skipped = 0
@@ -178,7 +222,7 @@ for split in ("train", "test"):
             continue
         name = p.stem.lower()
         label = None
-        for keyword, severity in SEVERITY_MAP.items():
+        for keyword, severity in SEVERITY_MAP:
             if keyword in name:
                 label = severity
                 break
@@ -195,7 +239,7 @@ if not severity_rows:
 else:
     stage3_df = pd.DataFrame(severity_rows)
     print(f"\n  Label distribution:\n{stage3_df['label'].value_counts().to_string()}\n")
-    save_split(stage3_df, "stage3")
+    save_split(stage3_df, "stage3", holdout=0.3)
 
 print("=" * 60)
 print("DONE")

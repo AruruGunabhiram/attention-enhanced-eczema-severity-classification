@@ -6,7 +6,7 @@ import os
 from PIL import Image
 
 def make_gradcam_heatmap(model, img_array: np.ndarray, last_conv_layer_name: str) -> np.ndarray:
-    """img_array shape: (1, H, W, 3), normalized to [0,1]"""
+    """img_array shape: (1, H, W, 3), float32 in [0, 255]"""
     grad_model = tf.keras.Model(
         inputs=model.inputs,
         outputs=[model.get_layer(last_conv_layer_name).output, model.output]
@@ -39,7 +39,7 @@ def run_gradcam_batch(model, df_sample, last_conv_layer_name: str, save_dir: str
     os.makedirs(save_dir, exist_ok=True)
     for _, row in df_sample.iterrows():
         img = tf.image.resize(
-            tf.cast(tf.image.decode_jpeg(tf.io.read_file(row['filepath'])), tf.float32) / 255.0,
+            tf.cast(tf.image.decode_jpeg(tf.io.read_file(row['filepath'])), tf.float32),
             (224, 224)
         )[tf.newaxis, ...]
         heatmap = make_gradcam_heatmap(model, img, last_conv_layer_name)

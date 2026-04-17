@@ -1,63 +1,127 @@
 import tensorflow as tf
-from tensorflow.keras import layers, Model
+from tensorflow.keras import layers, Model, regularizers
+from tensorflow.keras.applications import mobilenet_v2
 
-def build_mobilenetv2(num_classes: int, input_shape=(224,224,3), dropout=0.3) -> Model:
-    base = tf.keras.applications.MobileNetV2(
-        input_shape=input_shape, include_top=False,
-        weights='imagenet', pooling='avg'
-    )
-    base.trainable = False  # frozen for initial training
-    inputs = tf.keras.Input(shape=input_shape)
-    x = base(inputs, training=False)
+L2 = 5e-4
+
+
+def get_backbone(model: tf.keras.Model) -> tf.keras.Model:
+    for layer in model.layers:
+        if isinstance(layer, tf.keras.Model):
+            return layer
+    raise ValueError("No backbone sub-model found.")
+
+
+def _head(x, num_classes: int, dropout: float):
     x = layers.Dropout(dropout)(x)
     if num_classes == 2:
-        outputs = layers.Dense(1, activation='sigmoid')(x)
-    else:
-        outputs = layers.Dense(num_classes, activation='softmax')(x)
-    return Model(inputs, outputs)
+        return layers.Dense(
+            1, activation="sigmoid",
+            kernel_regularizer=regularizers.l2(L2), name="head",
+        )(x)
+    return layers.Dense(
+        num_classes, activation="softmax",
+        kernel_regularizer=regularizers.l2(L2), name="head",
+    )(x)
 
-def build_efficientnetb0(num_classes: int, input_shape=(224,224,3), dropout=0.3) -> Model:
-    base = tf.keras.applications.EfficientNetB0(
-        input_shape=input_shape, include_top=False,
-        weights='imagenet', pooling='avg'
-    )
-    base.trainable = False
-    inputs = tf.keras.Input(shape=input_shape)
-    x = base(inputs, training=False)
-    x = layers.Dropout(dropout)(x)
-    outputs = layers.Dense(num_classes, activation='softmax')(x)
-    return Model(inputs, outputs)
 
-def cbam_block(tensor, ratio=8):
-    """Channel + Spatial attention (CBAM)."""
-    # Channel attention
+def set_trainable_at(base: tf.keras.Model, trainable_at: int) -> None:
+    """Unfreeze the top `trainable_at` layers; keep BN layers frozen."""
+    if trainable_at <= 0:
+        base.trainable = False
+        return
+    base.trainable = True
+    for layer in base.layers[:-trainable_at]:
+        layer.trainable = False
+    for layer in base.layers:
+        if isinstance(layer, layers.BatchNormalization):
+            layer.trainable = False
+
+
+def _mobilenet_preprocess(x):
+    return mobilenet_v2.preprocess_input(x)
+
+
+def _spatial_mean(t):
+    return tf.reduce_mean(t, axis=-1, keepdims=True)
+
+
+def _spatial_max(t):
+    return tf.reduce_max(t, axis=-1, keepdims=True)
+
+
+def cbam_block(tensor, ratio: int = 16):
     channels = tensor.shape[-1]
-    avg_pool = layers.GlobalAveragePooling2D()(tensor)
-    max_pool = layers.GlobalMaxPooling2D()(tensor)
-    shared_dense1 = layers.Dense(channels // ratio, activation='relu')
-    shared_dense2 = layers.Dense(channels, activation='sigmoid')
-    avg_out = shared_dense2(shared_dense1(avg_pool))
-    max_out = shared_dense2(shared_dense1(max_pool))
-    combined = layers.Add()([avg_out, max_out])
-    combined = tf.reshape(combined, [-1, 1, 1, channels])
-    channel_att = layers.Multiply()([tensor, combined])
+    avg_p = layers.GlobalAveragePooling2D()(tensor)
+    max_p = layers.GlobalMaxPooling2D()(tensor)
+    avg_p = layers.Reshape((1, 1, channels))(avg_p)
+    max_p = layers.Reshape((1, 1, channels))(max_p)
+    shared_1 = layers.Dense(channels // ratio, activation="relu", use_bias=False)
+    shared_2 = layers.Dense(channels, use_bias=False)
+    ch_att = layers.Add()([shared_2(shared_1(avg_p)), shared_2(shared_1(max_p))])
+    ch_att = layers.Activation("sigmoid")(ch_att)
+    x = layers.Multiply()([tensor, ch_att])
 
-    # Spatial attention
-    avg_s = tf.reduce_mean(channel_att, axis=-1, keepdims=True)
-    max_s = tf.reduce_max(channel_att, axis=-1, keepdims=True)
+    avg_s = layers.Lambda(_spatial_mean, name="cbam_spatial_mean")(x)
+    max_s = layers.Lambda(_spatial_max,  name="cbam_spatial_max")(x)
     concat = layers.Concatenate(axis=-1)([avg_s, max_s])
-    spatial_att = layers.Conv2D(1, 7, padding='same', activation='sigmoid')(concat)
-    return layers.Multiply()([channel_att, spatial_att])
+    sp_att = layers.Conv2D(1, 7, padding="same", activation="sigmoid",
+                           use_bias=False, name="cbam_spatial_conv")(concat)
+    return layers.Multiply()([x, sp_att])
 
-def build_cbam_model(num_classes: int, input_shape=(224,224,3), dropout=0.3) -> Model:
-    base = tf.keras.applications.EfficientNetB0(
-        input_shape=input_shape, include_top=False, weights='imagenet'
+
+def _build(backbone_fn, num_classes, input_shape, dropout, trainable_at,
+           use_cbam, preprocess_fn=None):
+    base = backbone_fn(
+        input_shape=input_shape, include_top=False, weights="imagenet",
+        pooling=None if use_cbam else "avg",
     )
-    base.trainable = False
+    set_trainable_at(base, trainable_at)
     inputs = tf.keras.Input(shape=input_shape)
-    x = base(inputs, training=False)     # shape: (batch, H, W, C)
-    x = cbam_block(x)                    # attention on feature maps
-    x = layers.GlobalAveragePooling2D()(x)
-    x = layers.Dropout(dropout)(x)
-    outputs = layers.Dense(num_classes, activation='softmax')(x)
+    x = inputs
+    if preprocess_fn is not None:
+        x = layers.Lambda(preprocess_fn, name="preprocess")(x)
+    x = base(x, training=False)
+    if use_cbam:
+        x = cbam_block(x)
+        x = layers.GlobalAveragePooling2D()(x)
+    outputs = _head(x, num_classes, dropout)
     return Model(inputs, outputs)
+
+
+def build_mobilenetv2(num_classes, input_shape=(224, 224, 3),
+                     dropout=0.4, trainable_at=0):
+    return _build(tf.keras.applications.MobileNetV2, num_classes,
+                  input_shape, dropout, trainable_at,
+                  use_cbam=False, preprocess_fn=_mobilenet_preprocess)
+
+
+def build_efficientnetb0(num_classes, input_shape=(224, 224, 3),
+                        dropout=0.4, trainable_at=0):
+    return _build(tf.keras.applications.EfficientNetB0, num_classes,
+                  input_shape, dropout, trainable_at, use_cbam=False)
+
+
+def build_efficientnetv2s(num_classes, input_shape=(300, 300, 3),
+                         dropout=0.4, trainable_at=0):
+    return _build(tf.keras.applications.EfficientNetV2S, num_classes,
+                  input_shape, dropout, trainable_at, use_cbam=False)
+
+
+def build_cbam_model(num_classes, input_shape=(224, 224, 3),
+                     dropout=0.4, trainable_at=0):
+    return _build(tf.keras.applications.EfficientNetB0, num_classes,
+                  input_shape, dropout, trainable_at, use_cbam=True)
+
+
+def build_cbam_v2s(num_classes, input_shape=(300, 300, 3),
+                   dropout=0.4, trainable_at=0):
+    return _build(tf.keras.applications.EfficientNetV2S, num_classes,
+                  input_shape, dropout, trainable_at, use_cbam=True)
+
+
+CUSTOM_OBJECTS = {
+    "_mobilenet_preprocess": _mobilenet_preprocess,
+    "_spatial_mean": _spatial_mean,
+    "_spatial_max": _spatial_max,
+}
