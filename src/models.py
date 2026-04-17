@@ -13,6 +13,9 @@ def get_backbone(model: tf.keras.Model) -> tf.keras.Model:
 
 
 def _head(x, num_classes: int, dropout: float):
+    x = layers.Dense(256, activation="relu", kernel_regularizer=regularizers.l2(L2))(x)
+    x = layers.Dropout(0.5)(x)
+    x = layers.Dense(128, activation="relu", kernel_regularizer=regularizers.l2(L2))(x)
     x = layers.Dropout(dropout)(x)
     if num_classes == 2:
         return layers.Dense(

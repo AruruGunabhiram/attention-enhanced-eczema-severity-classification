@@ -28,9 +28,9 @@ def build_dataset(
 
     def load_and_preprocess(path, label):
         img = tf.io.read_file(path)
-        img = tf.image.decode_jpeg(img, channels=3)
+        img = tf.image.decode_image(img, channels=3, expand_animations=False)  # decode_jpeg silently drops PNGs; decode_image handles JPEG/PNG/BMP/GIF
         img = tf.image.resize(img, image_size)
-        img = tf.cast(img, tf.float32) / 255.0
+        img = tf.cast(img, tf.float32)  # EfficientNetB0 applies its own preprocess_input internally; dividing by 255 causes double-preprocessing and class collapse
         return img, label
 
     def augment_fn(img, label):

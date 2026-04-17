@@ -56,6 +56,10 @@ def build_dataset(
     shuffle: bool = True,
     one_hot: bool = False,
     mixup_alpha: float = 0.0,
+    # MixUp produces soft float labels which are silently incompatible with
+    # sparse_categorical_crossentropy (expects integer class indices). Set
+    # use_mixup=True only when loss='categorical_crossentropy' and one_hot=True.
+    use_mixup: bool = False,
     balance: bool = False,
 ) -> tf.data.Dataset:
     df = pd.read_csv(csv_path)
@@ -72,11 +76,19 @@ def build_dataset(
     num_classes = len(label_list)
 
     aug_pipeline = tf.keras.Sequential([
-        tf.keras.layers.RandomFlip("horizontal"),
-        tf.keras.layers.RandomRotation(0.15, fill_mode="reflect"),
+        tf.keras.layers.RandomFlip("horizontal_and_vertical"),
+        tf.keras.layers.RandomRotation(30 / 360, fill_mode="reflect"),
+        tf.keras.layers.RandomZoom(0.2, fill_mode="reflect"),
         tf.keras.layers.RandomTranslation(0.1, 0.1, fill_mode="reflect"),
-        tf.keras.layers.RandomZoom(0.15, fill_mode="reflect"),
-    ])
+        tf.keras.layers.RandomContrast(0.3),
+        # Lambda instead of RandomBrightness: inputs are [0,255], not [0,1]
+        tf.keras.layers.Lambda(
+            lambda x: tf.clip_by_value(
+                x + tf.random.uniform(tf.shape(x), minval=-38.0, maxval=38.0),
+                0.0, 255.0,
+            )
+        ),
+    ], name="augmentation")
 
     def load_and_preprocess(filepath, label):
         raw = tf.io.read_file(filepath)
@@ -87,11 +99,6 @@ def build_dataset(
 
     def apply_augmentation(image, label):
         image = aug_pipeline(image, training=True)
-        image = tf.image.random_brightness(image, max_delta=0.15 * 255.0)
-        image = tf.image.random_contrast(image, lower=0.85, upper=1.15)
-        image = tf.image.random_saturation(image, lower=0.75, upper=1.25)
-        image = tf.image.random_hue(image, max_delta=0.04)
-        image = tf.clip_by_value(image, 0.0, 255.0)
         return image, label
 
     def to_one_hot(image, label):
@@ -108,7 +115,7 @@ def build_dataset(
         dataset = dataset.map(to_one_hot, num_parallel_calls=tf.data.AUTOTUNE)
 
     dataset = dataset.batch(batch_size)
-    if augment and mixup_alpha > 0.0:
+    if augment and use_mixup and mixup_alpha > 0.0:
         dataset = dataset.map(
             lambda x, y: _mixup_batch(x, y, mixup_alpha),
             num_parallel_calls=tf.data.AUTOTUNE,
