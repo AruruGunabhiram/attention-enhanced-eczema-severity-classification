@@ -168,6 +168,9 @@ unzip data/raw/dermnet.zip -d data/raw/dermnet/
 
 Tested on Python 3.12, TensorFlow 2.19.0, Google Colab T4 GPU.
 
+> **Colab notebook (recommended):** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ZajqrqdN5NkN2fiNC_lcSPFNxicwdeGi?usp=sharing)
+> Pre-trained checkpoints and training outputs are saved to the linked Google Drive. Model files are excluded from this repo (see `.gitignore`) due to size.
+
 ---
 
 ## How to Run
