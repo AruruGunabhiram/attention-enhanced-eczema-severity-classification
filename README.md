@@ -1,32 +1,10 @@
 # Attention-Enhanced Eczema Severity Classification
 
-A deep learning pipeline for eczema detection and severity grading using
-EfficientNet backbones (B0 / V2-S) with a Convolutional Block Attention
-Module (CBAM) and Grad-CAM interpretability, trained on the DermNet skin
-disease dataset.
+A three-stage cascaded CNN pipeline for skin detection, eczema detection, and heuristic eczema severity classification using TensorFlow/Keras and CBAM-enhanced EfficientNetB0.
 
----
+## Overview
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Architecture](#architecture)
-- [Dataset](#dataset)
-- [Setup](#setup)
-- [How to Run](#how-to-run)
-- [Results](#results)
-- [Key Techniques](#key-techniques)
-- [File Structure](#file-structure)
-- [Requirements](#requirements)
-- [License](#license)
-
----
-
-## Project Overview
-
-Eczema (atopic dermatitis) affects over 200 million people worldwide, yet
-clinical severity grading remains subjective and inconsistent across
-practitioners. This project builds a three-stage pipeline:
+This project implements a staged computer-vision pipeline on the DermNet dataset:
 
 1. **Stage 1** — skin vs. not-skin (gatekeeper to reject non-dermatological
    inputs; uses CIFAR-10 non-skin classes as negatives).
@@ -39,7 +17,7 @@ EfficientNet backbones are paired with a **Convolutional Block Attention
 Module (CBAM)** that applies sequential channel and spatial attention so the
 network focuses on lesion regions rather than background skin. **Grad-CAM**
 overlays are generated at inference time to verify where the model is
-actually looking — a useful sanity check for verifying model attention during development.
+actually looking — a requirement for any clinically-facing tool.
 
 ---
 
@@ -67,14 +45,9 @@ flowchart TD
 
 **Training strategy** — two-phase fine-tuning:
 
-1. **Phase 1 — Warmup** (25 epochs): backbone fully frozen, head + CBAM only,
-   lr=1e-3, AdamW.
-2. **Phase 2 — Fine-tune** (20 epochs): top-30 backbone layers unfrozen
-   (BatchNorm stays frozen), lr=1e-5, cosine-decay AdamW.
-
-Callbacks: EarlyStopping (patience=7, restore best weights),
-ReduceLROnPlateau (factor=0.5, patience=3, min_lr=1e-7),
-ModelCheckpoint (monitor val_accuracy).
+1. **Warmup**: backbone frozen, head + CBAM only, LR 1e-3.
+2. **Fine-tune**: unfreeze top-N backbone layers (BatchNorm stays frozen),
+   cosine-decay LR from 1e-4, AdamW weight decay.
 
 Available backbones: `mobilenetv2`, `efficientnetb0`, `efficientnetv2s`,
 `cbam` (EfficientNetB0 + CBAM), `cbam_v2s` (EfficientNetV2-S + CBAM).
@@ -114,12 +87,10 @@ Warts & Molluscum), downsampled to match eczema count.
 
 | Severity | Count |
 |----------|------:|
-| mild     | 469   |
-| moderate | 1,885 |
-| severe   | 127   |
-| **Total**| **2,481** |
-
-**Split:** train=1,736 / val=372 / test=373 (70 / 15 / 15, stratified).
+| moderate | 991   |
+| severe   | 455   |
+| mild     | 77    |
+| **Total**| **1,523** |
 
 Labels are derived from filename keywords in `Eczema Photos` (see
 `SEVERITY_MAP` in `scripts/make_splits.py`). The map covers 48 keywords
@@ -128,8 +99,6 @@ severe, `*nummular*` / `*hand*` / `*fingertip*` → moderate, `*acute*` /
 `*face*` / `*factitial*` → mild. Only 21 of 1,544 images remain unlabeled.
 Focal loss (`--focal_gamma 2.0`) and oversampling (`--balance`) are used at
 training time to address the residual class imbalance.
-
-> ⚠️ **Label disclaimer:** These labels are heuristic keyword-derived proxies and are **NOT clinician-validated**. Stage 3 accuracy reflects keyword-matching quality, not clinical ground truth. This system is not suitable for medical diagnosis.
 
 ### Expected directory layout
 
@@ -152,13 +121,8 @@ data/raw/
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/eczema-severity-classification.git
-cd eczema-severity-classification
-
-python -m venv .venv
-source .venv/bin/activate        # macOS / Linux
-# .venv\Scripts\activate         # Windows
-
+git clone https://github.com/AruruGunabhiram/attention-enhanced-eczema-severity-classification.git
+cd attention-enhanced-eczema-severity-classification
 pip install -r requirements.txt
 
 # Download DermNet via Kaggle CLI (requires configured API key)
@@ -166,7 +130,8 @@ kaggle datasets download -d shubhamgoel27/dermnet -p data/raw/
 unzip data/raw/dermnet.zip -d data/raw/dermnet/
 ```
 
-Tested on Python 3.12, TensorFlow 2.19.0, Google Colab T4 GPU.
+Tested on Python 3.9+, TensorFlow 2.20 (CUDA 11 on Linux/Windows, Apple
+Metal on macOS).
 
 ---
 
@@ -178,43 +143,21 @@ Tested on Python 3.12, TensorFlow 2.19.0, Google Colab T4 GPU.
 python scripts/make_splits.py
 ```
 
-Produces `data/splits/stage{1,2,3}_{train,val,test}.csv`. Re-run any time
-the raw data or the `SEVERITY_MAP` keyword rules change.
+This generates split files under `data/splits/`.
 
 ### Step 2 — Train
 
-> **Note:** `train.py` supports Stage 2 and Stage 3 only. Stage 1 (skin vs. not-skin) is handled via the splits pipeline and does not require a separate training script.
+The full training workflow for all three stages, model variants, and Grad-CAM generation is contained in the notebook:
 
-**Stage 2 — eczema detection (binary)**
+- `notebooks/DNN.ipynb`
 
-```bash
-python train.py --stage 2 --model cbam_v2s --image_size 300 --batch_size 16 \
-    --epochs 50 --warmup_epochs 10 --unfreeze_at 80
-```
-
-**Stage 3 — severity classification (3-class, imbalanced → use `--balance` + focal loss)**
+If you are using the script-based path, the training entry point is:
 
 ```bash
-python train.py --stage 3 --model cbam_v2s --image_size 300 --batch_size 16 \
-    --epochs 80 --warmup_epochs 15 --unfreeze_at 60 \
-    --mixup 0.3 --focal_gamma 2.0 --balance --dropout 0.5 --label_smoothing 0.05
+python train.py --stage 3 --model cbam --batch_size 32
 ```
 
-**Evaluate an existing checkpoint (no retraining)**
-
-```bash
-python train.py --stage 2 --model cbam_v2s --image_size 300 --batch_size 16 --eval_only
-```
-
-**Lighter / faster alternatives**
-
-```bash
-python train.py --stage 2 --model mobilenetv2    --batch_size 32
-python train.py --stage 2 --model efficientnetb0 --batch_size 32
-```
-
-Checkpoints land in `models/{stage}_{model}_best.keras`, training history
-in `logs/*.csv`, per-class classification reports in `logs/*_report.txt`.
+Adjust the stage and model arguments as needed for Stage 1, Stage 2, or Stage 3 experiments.
 
 ### Step 3 — Grad-CAM evaluation
 
@@ -260,15 +203,7 @@ Output: `outputs/gradcam_<filename>.png`.
 
 ## Results
 
-**Test accuracy** reported on the held-out test set (373 samples, 15% of data). **Val accuracy** reported on the validation set (372 samples, 15% of data). Stage 2 uses `image_size=300`; Stage 3 uses `image_size=300` with `--balance --mixup 0.3 --focal_gamma 2.0`.
-
-### Pipeline Accuracy Summary
-
-| Stage | Task | Train Acc | Test Acc |
-|-------|------|----------:|---------:|
-| Stage 1 | Skin vs. Not-Skin (binary) | 99.95% | 99.35% |
-| Stage 2 | Eczema vs. Other Skin (binary) | 97.52% | 96.74% |
-| Stage 3 | Severity — best model (EfficientNetB0+CBAM) | ~90% | 85.3% |
+All numbers are from the validation set. Stage 2 uses `image_size=300`; Stage 3 uses `image_size=300` with `--balance --mixup 0.3 --focal_gamma 2.0`.
 
 ### Stage 2 — Eczema vs. Other Skin (431 val samples)
 
@@ -287,24 +222,18 @@ Per-class breakdown for best model (CBAM + EfficientNetV2S):
 
 ### Stage 3 — Severity Grading (mild / moderate / severe)
 
-Ablation on test set (373 samples). All models trained with `--balance --focal_gamma 2.0`.
+| Model | Val Samples | Val Accuracy | Macro F1 | Weighted F1 |
+|---|---:|---:|---:|---:|
+| CBAM + EfficientNetB0 (baseline) | 31 | 0.774 | 0.484 | 0.738 |
+| **CBAM + EfficientNetV2S** (focal loss + expanded data) | **228** | **0.798** | **0.748** | **0.799** |
 
-| Model | Test Acc | Val Acc | Macro F1 |
-|---|---:|---:|---:|
-| MobileNetV2 (baseline) | 81.0% | 79.0% | 0.47 |
-| EfficientNetB0 | 79.9% | 80.7% | 0.55 |
-| **EfficientNetB0 + CBAM** | **85.3%** | **80.4%** | **0.62** |
-
-Per-class breakdown — EfficientNetB0+CBAM, **test set** (n=373):
+Per-class breakdown for best model (CBAM + EfficientNetV2S):
 
 | Class | Precision | Recall | F1 | Support |
 |---|---:|---:|---:|---:|
-| mild | 0.83 | 0.68 | 0.74 | 71 |
-| moderate | 0.88 | 0.94 | 0.91 | 283 |
-| severe | 0.25 | 0.16 | **0.19** | 19 |
-| **macro avg** | **0.65** | **0.59** | **0.62** | 373 |
-
-> ⚠️ Severe class (n=19 test samples) is critically underperforming (F1=0.19). Class imbalance is extreme: moderate is 76% of the dataset, severe is 5%.
+| mild | 0.727 | 0.667 | 0.696 | 12 |
+| moderate | 0.863 | 0.851 | 0.857 | 148 |
+| severe | 0.676 | 0.706 | 0.691 | 68 |
 
 **Improvements over baseline:** expanded severity map recovered 585 previously skipped images (938 → 1,523 total labeled), raising mild train samples from 31 → 54. Focal loss (γ=2) lifted mild F1 from 0.40 → 0.70 and macro F1 from 0.484 → 0.748.
 
@@ -350,10 +279,10 @@ and picks the one that maximizes macro-F1 — avoids locking to the default
 0.5 when AUC is high but the raw probabilities are biased.
 
 ### Augmentation
-Random horizontal **and vertical** flip, ±30° rotation, ±10% translation,
-±20% zoom, contrast ×0.7–1.3, brightness ±38.0 (unnormalized [0, 255] pixel
-space — applied via Lambda, not `RandomBrightness`, because EfficientNetB0
-handles its own internal preprocessing and must receive inputs in [0, 255]).
+Random horizontal flip, ±15° rotation, ±10% translation, ±15% zoom,
+brightness / contrast / saturation / hue jitter. Preprocessing
+(Rescaling / normalization) is handled inside the model so pixel values
+flow through the pipeline in [0, 255].
 
 ### Grad-CAM
 Gradient-weighted Class Activation Mapping
@@ -386,19 +315,9 @@ eczema-severity-classification/
 │   ├── losses.py              # Focal loss implementation
 │   └── gradcam_utils.py       # Batch Grad-CAM utilities
 │
-├── notebooks/
-│   └── DNN.ipynb              # Colab training notebook
-│
-├── docs/
-│   └── DNN_Project_Outline.pdf  # Course project specification
-│
-├── figures/
-│   └── gradcam_cbam.png       # Grad-CAM overlay — upload manually from Colab after running evaluate.py
-│
 ├── train.py                   # Training + evaluation entry point
 ├── evaluate.py                # Grad-CAM visualization entry point
 ├── showcase_results.py        # Results dashboard (training curves, comparison, Grad-CAM)
-├── LICENSE
 ├── requirements.txt
 └── README.md
 ```
@@ -409,8 +328,8 @@ eczema-severity-classification/
 
 | Package      | Version  | Purpose                     |
 |--------------|----------|-----------------------------|
-| tensorflow   | 2.19.0   | Model building and training |
-| keras        | 3.x      | High-level model API        |
+| tensorflow   | 2.20.0   | Model building and training |
+| keras        | 3.10.0   | High-level model API        |
 | scikit-learn | 1.6.1    | Class weights, metrics      |
 | pandas       | 2.3.3    | CSV split management        |
 | numpy        | 2.0.2    | Numerical operations        |
@@ -430,7 +349,7 @@ This project is licensed under the **MIT License**.
 ```
 MIT License
 
-Copyright (c) 2026 Gunnabhiram Aruru
+Copyright (c) 2024 Gunnabhiram
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -453,6 +372,6 @@ SOFTWARE.
 
 ---
 
-> Developed as part of a university deep learning course. Course outline: [`docs/DNN_Project_Outline.pdf`](docs/DNN_Project_Outline.pdf)
+> Developed as part of a university deep learning course.
 > DermNet dataset courtesy of [Shubham Goel on Kaggle](https://www.kaggle.com/datasets/shubhamgoel27/dermnet).
 > CBAM based on Woo et al. (ECCV 2018). Grad-CAM based on Selvaraju et al. (ICCV 2017).
