@@ -175,6 +175,8 @@ the raw data or the `SEVERITY_MAP` keyword rules change.
 
 ### Step 2 — Train
 
+> **Note:** `train.py` supports Stage 2 and Stage 3 only. Stage 1 (skin vs. not-skin) is handled via the splits pipeline and does not require a separate training script.
+
 **Stage 2 — eczema detection (binary)**
 
 ```bash
@@ -362,9 +364,19 @@ eczema-severity-classification/
 │   ├── losses.py              # Focal loss implementation
 │   └── gradcam_utils.py       # Batch Grad-CAM utilities
 │
+├── notebooks/
+│   └── DNN.ipynb              # Colab training notebook
+│
+├── docs/
+│   └── DNN_Project_Outline.pdf  # Course project specification
+│
+├── figures/
+│   └── gradcam_cbam.png       # Grad-CAM overlay (CBAM model, sample eczema image)
+│
 ├── train.py                   # Training + evaluation entry point
 ├── evaluate.py                # Grad-CAM visualization entry point
 ├── showcase_results.py        # Results dashboard (training curves, comparison, Grad-CAM)
+├── LICENSE
 ├── requirements.txt
 └── README.md
 ```
@@ -396,7 +408,7 @@ This project is licensed under the **MIT License**.
 ```
 MIT License
 
-Copyright (c) 2024 Gunnabhiram
+Copyright (c) 2026 Gunnabhiram Aruru
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -419,6 +431,6 @@ SOFTWARE.
 
 ---
 
-> Developed as part of a university deep learning course.
+> Developed as part of a university deep learning course. Course outline: [`docs/DNN_Project_Outline.pdf`](docs/DNN_Project_Outline.pdf)
 > DermNet dataset courtesy of [Shubham Goel on Kaggle](https://www.kaggle.com/datasets/shubhamgoel27/dermnet).
 > CBAM based on Woo et al. (ECCV 2018). Grad-CAM based on Selvaraju et al. (ICCV 2017).
