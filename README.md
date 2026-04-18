@@ -129,7 +129,6 @@ severe, `*nummular*` / `*hand*` / `*fingertip*` → moderate, `*acute*` /
 Focal loss (`--focal_gamma 2.0`) and oversampling (`--balance`) are used at
 training time to address the residual class imbalance.
 
-> ⚠️ **Label disclaimer:** These labels are heuristic keyword-derived proxies and are **NOT clinician-validated**. Stage 3 accuracy reflects keyword-matching quality, not clinical ground truth. This system is not suitable for medical diagnosis.
 
 ### Expected directory layout
 
@@ -152,7 +151,7 @@ data/raw/
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/eczema-severity-classification.git
+git clone https://github.com/AruruGunabhiram/eczema-severity-classification.git
 cd eczema-severity-classification
 
 python -m venv .venv
@@ -307,7 +306,7 @@ Per-class breakdown — EfficientNetB0+CBAM, **test set** (n=373):
 | severe | 0.25 | 0.16 | **0.19** | 19 |
 | **macro avg** | **0.65** | **0.59** | **0.62** | 373 |
 
-> ⚠️ Severe class (n=19 test samples) is critically underperforming (F1=0.19). Class imbalance is extreme: moderate is 76% of the dataset, severe is 5%.
+
 
 **Improvements over baseline:** expanded severity map recovered 585 previously skipped images (938 → 1,523 total labeled), raising mild train samples from 31 → 54. Focal loss (γ=2) lifted mild F1 from 0.40 → 0.70 and macro F1 from 0.484 → 0.748.
 
